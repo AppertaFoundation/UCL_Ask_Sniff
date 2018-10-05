@@ -1,0 +1,1331 @@
+[
+{
+    "model": "iPoorly.category",
+    "pk": 1,
+    "fields": {
+        "categoryName": "vomiting",
+        "description": "<p>It is not unusual for babies and children to vomit occasionally.&nbsp;</p>\r\n<p>Vomiting often lasts for 1\u20132&nbsp;days and in most children it will stop within 3&nbsp;days. </p>\r\n<p>It isn't usually a sign of anything serious. </p>\r\n<p>Persistent vomiting may lead to <u><a href=\"/symptom/dehydration\">dehydration</a></u>.</p>\r\n<p>If your baby/child has vomiting <strong>and</strong> other symptoms it is more likely the illness is serious</p>"
+    }
+},
+{
+    "model": "iPoorly.category",
+    "pk": 2,
+    "fields": {
+        "categoryName": "dehydration",
+        "description": "<p>Dehydration is when the body doesn't have enough water or the right balance of salts to carry out its normal functions. </p>\r\n<p>Dehydration is more likely to occur in young babies and in children:&nbsp; </p>\r\n<ul><li>who haven't been able to drink enough during their illness (for example, because they can\u2019t stop working hard to breathe to take a drink or because they have lost extra water in sweat with a high temperature)&nbsp;</li><li>who have severe <a href=\"/symptom/diarrhoea\" target=\"_blank\">diarrhoea</a> and <a href=\"/symptom/vomiting\">vomiting</a>.</li></ul>\r\n<p>Children with severe dehydration often feel and look unwell. </p>\r\n<p>If the dehydration becomes severe it can be dangerous.&nbsp;</p>"
+    }
+},
+{
+    "model": "iPoorly.category",
+    "pk": 3,
+    "fields": {
+        "categoryName": "diarrhoea",
+        "description": "<p>Diarrhoea is passing&nbsp;frequent loose or watery stools (poo), usually accompanied by tummy cramps and urgency.</p>\r\n<p>When young children suddenly begin to have diarrhoea this is usually caused by an infection in the gut. This illness is known as gastroenteritis. Children with diarrhoea often <a href=\"/symptom/vomiting\">vomit</a> as well.</p>\r\n<p>The infection makes the gut sore and irritable. This can cause vomiting and stomach cramps. It can also stop the gut from absorbing fluids normally leading to watery poo (diarrhoea). This is why babies and children can become <a href=\"/symptom/dehydration\">dehydrated</a>.</p>\r\n<p>During the illness fluid intake is much more important than food.</p>\r\n<p>Most children with gastroenteritis get better quickly without treatment. You will normally be able to look after your child safely at home. </p>\r\n<p>Diarrhoea often lasts for 5\u20137 days and in most children it will stop within 2 weeks. </p>\r\n<p>Babies with diarrhoea under 1 year, especially those under 6 months and those born with low birth weight, are at higher risk of <u><a href=\"/symptom/dehydration\">dehydration</a></u></p><h3>Normal poo</h3><p><a href=\"https://www.nct.org.uk/sites/default/files/related_documents/What's%20in%20a%20nappy%20(ENGLISH%20VERSION)%20FINAL%20WITHOUT%20BLEED.pdf\">NCT What\u2019s in a nappy? </a>Explains what to expect baby poo to look like in the first days and weeks after birth.</p>\r\n<p>Breastfed babies have runny poo that doesn't smell. Formula-fed babies' poo is firmer, darker brown and smellier.&nbsp;</p><p><em>Photos of breastfed and formula fed baby poo.</em></p>\r\n<p>Babies\u2019 poo becomes more solid as solid food is introduced.</p>\r\n<p>Older children\u2019s poo will vary depending on their diet. The Bristol Stool Chart shows the differences from very constipated (type 1) to diarrhoea (type 6 & 7).&nbsp;</p>"
+    }
+},
+{
+    "model": "iPoorly.category",
+    "pk": 4,
+    "fields": {
+        "categoryName": "temperature",
+        "description": "<h3>Normal response to illness</h3><p>Increased body temperature is a normal response to illness. It is part of the way your child\u2019s body fights infections.</p>\r\n<p>Increasing the temperature means that your child\u2019s metabolism also increases so their breathing rate & heart rate (pulse) will also increase.</p>\r\n<p>Another effect of raising the temperature is lethargy \u2013 being tired and sleepy \u2013 but you should always be able to rouse or wake them.</p>\r\n<p>It is normal for body temperatures to go up and down during the day, when we are well and when they are ill. </p>\r\n<p>Almost all children with a fever recover quickly and without problems. </p>\r\n<p>In a very small proportion of children the temperature may not come down or it may get higher, which can sometimes be a sign of a serious illness or infection, such as pneumonia, a urine infection or meningitis.</p>\r\n<p><b>Children with serious illness usually have other symptoms as well as a high temperature.</b></p>"
+    }
+},
+{
+    "model": "iPoorly.category",
+    "pk": 5,
+    "fields": {
+        "categoryName": "rash",
+        "description": "<p>Childhood rashes are&nbsp;very common and are&nbsp;often nothing to worry about. </p>\r\n<p>It is normal for babies to develop skin rashes from as early as a few days old, as their sensitive skin adapts to a different environment. Follow this <a href=\"http://www.nhs.uk/conditions/skin-rash-babies/Pages/Introduction.aspx\">link</a> for more information.</p>\r\n<p>Most rashes are harmless and go away on their own.</p>\r\n<p>However, if your baby or child has developed a rash and seems unwell, or if you are worried, see your GP to find the cause and any necessary treatment. </p>\r\n<h3>Why rashes happen</h3>\r\n<p><strong>Non-blanching rashes </strong>are caused by small areas of bleeding in the skin \u2013 this is why they do not fade when pressed.</p>\r\n<p><strong>Blanching rashes </strong>are caused by inflammation in response to irritants or infection. Inflammation causes more blood to go to the irritated or infected part of the skin causing redness. When pressed, as the blood is still in the tiny blood vessels in the skin, the blood flows away from the pressure causing the redness to fade.</p>\r\n<p>Rashes are not always infectious/contagious as they can also be caused by things that irritate the skin.</p>\r\n<p>More pictures and information about rashes can be found on the NHS Choices webpages on \u2018<a href=\"http://www.nhs.uk/conditions/skin-rash-children/Pages/Introduction.aspx\">Skin rashes in children</a>\u2019 and \u2018<a href=\"http://www.nhs.uk/Conditions/skin-rash-babies/Pages/Introduction.aspx\">Skin rashes in babies</a>\u2019.&nbsp;</p>"
+    }
+},
+{
+    "model": "iPoorly.category",
+    "pk": 6,
+    "fields": {
+        "categoryName": "breathing",
+        "description": ""
+    }
+},
+{
+    "model": "iPoorly.heading",
+    "pk": 1,
+    "fields": {
+        "categoryName": 1,
+        "text": "How to assess the seriousness of vomiting"
+    }
+},
+{
+    "model": "iPoorly.heading",
+    "pk": 2,
+    "fields": {
+        "categoryName": 1,
+        "text": "How to look after a baby/child who is vomiting"
+    }
+},
+{
+    "model": "iPoorly.heading",
+    "pk": 3,
+    "fields": {
+        "categoryName": 2,
+        "text": "How to spot dehydration in your baby/child"
+    }
+},
+{
+    "model": "iPoorly.heading",
+    "pk": 4,
+    "fields": {
+        "categoryName": 2,
+        "text": "How to care for your baby/child when they are  dehydrated"
+    }
+},
+{
+    "model": "iPoorly.heading",
+    "pk": 5,
+    "fields": {
+        "categoryName": 3,
+        "text": "How to assess the seriousness of diarrhoea"
+    }
+},
+{
+    "model": "iPoorly.heading",
+    "pk": 6,
+    "fields": {
+        "categoryName": 3,
+        "text": "How to look after a baby/child with diarrhoea"
+    }
+},
+{
+    "model": "iPoorly.heading",
+    "pk": 7,
+    "fields": {
+        "categoryName": 3,
+        "text": "How diarrhoea affects your baby/child"
+    }
+},
+{
+    "model": "iPoorly.heading",
+    "pk": 8,
+    "fields": {
+        "categoryName": 4,
+        "text": "Does my child have a high or low temperature?"
+    }
+},
+{
+    "model": "iPoorly.heading",
+    "pk": 9,
+    "fields": {
+        "categoryName": 4,
+        "text": "How to look after a child with high temperature"
+    }
+},
+{
+    "model": "iPoorly.heading",
+    "pk": 10,
+    "fields": {
+        "categoryName": 4,
+        "text": "Why do high temperatures happen?"
+    }
+},
+{
+    "model": "iPoorly.heading",
+    "pk": 11,
+    "fields": {
+        "categoryName": 5,
+        "text": "How to assess rashes"
+    }
+},
+{
+    "model": "iPoorly.heading",
+    "pk": 12,
+    "fields": {
+        "categoryName": 5,
+        "text": "Different types of rash"
+    }
+},
+{
+    "model": "iPoorly.heading",
+    "pk": 13,
+    "fields": {
+        "categoryName": 5,
+        "text": "How to care for a child with a rash"
+    }
+},
+{
+    "model": "iPoorly.heading",
+    "pk": 14,
+    "fields": {
+        "categoryName": 6,
+        "text": "How to assess breathing"
+    }
+},
+{
+    "model": "iPoorly.heading",
+    "pk": 15,
+    "fields": {
+        "categoryName": 6,
+        "text": "Breathing symptoms to look for"
+    }
+},
+{
+    "model": "iPoorly.heading",
+    "pk": 16,
+    "fields": {
+        "categoryName": 6,
+        "text": "How to look after my baby/child with breathing difficulties"
+    }
+},
+{
+    "model": "iPoorly.heading",
+    "pk": 17,
+    "fields": {
+        "categoryName": 6,
+        "text": "Why breathing problems happen"
+    }
+},
+{
+    "model": "iPoorly.agegroup",
+    "pk": 1,
+    "fields": {
+        "age_group": 0
+    }
+},
+{
+    "model": "iPoorly.agegroup",
+    "pk": 2,
+    "fields": {
+        "age_group": 1
+    }
+},
+{
+    "model": "iPoorly.agegroup",
+    "pk": 3,
+    "fields": {
+        "age_group": 2
+    }
+},
+{
+    "model": "iPoorly.agegroup",
+    "pk": 4,
+    "fields": {
+        "age_group": 3
+    }
+},
+{
+    "model": "iPoorly.agegroup",
+    "pk": 5,
+    "fields": {
+        "age_group": 4
+    }
+},
+{
+    "model": "iPoorly.agegroup",
+    "pk": 6,
+    "fields": {
+        "age_group": 5
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 1,
+    "fields": {
+        "headingId": 1,
+        "title": "Is my baby/child posseting or vomiting",
+        "text": "<p><strong>Posseting</strong>, also called <a href=\"http://www.nhs.uk/Conditions/reflux-babies/Pages/Introduction.aspx\">reflux</a>\r\n  </p>\r\n<ul><li>Babies often bring up&nbsp;milk <em>during or shortly after </em>feeding&nbsp;\u2013&nbsp;this is known as 'posseting', or 'reflux'.&nbsp; Your baby\u2019s muscles do not contract when this happens so you won\u2019t feel their tummy go hard.</li><li>It's important know that reflux is normal, and often just the result of a baby's underdeveloped oesophagus (food canal).</li><li>It usually stops&nbsp;when the baby reaches 12-14 months of age, when the ring of muscle at the bottom of their oesophagus (food pipe) fully develops, preventing stomach contents from leaking out.&nbsp;</li></ul>\r\n<p><strong>Vomiting</strong>, involves your baby\u2019s stomach muscles forcibly contracting to push out the vomit.\r\n</p>",
+        "lastEdited": "2017-12-31T03:49:43.112Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 2,
+    "fields": {
+        "headingId": 1,
+        "title": "Is my baby\u2019s vomiting serious",
+        "text": "<p>Your baby is unlikely to have a serious illness if they:</p>\r\n<ul><li>have only vomited once with no other symptoms,</li><li>are feeding or drinking and eating normally,</li><li>are breathing normally,</li><li>have no signs of dehydration, and</li><li>are behaving normally.</li></ul>\r\n<p>You may need to take your baby to see a health professional, such as a GP, if you are worried and they:</p>\r\n<ul><li>Have been vomiting for more than 3 days with no other symptoms</li><li>Have been vomiting with loss of appetite, <u>cough</u>, runny nose or earache (your baby may pull at the painful ear)</li></ul>\r\n<p>Your baby may have a serious illness and needs to be seen immediately if they:</p>\r\n<ul><li>Are vomiting and are 3 months of age or less</li><li>Are vomiting and are under 12 months of age and were born prematurely</li><li>have vomit which contains bile and looks green or contains blood</li><li>Are vomiting and have a distended (swollen) abdomen/tummy</li><li><u>Are </u><a href=\"/symptom/dehydration\">Dehydrated</a>and refusing to drink <a href=\"http://www.nhs.uk/Conditions/Dehydration/Pages/Treatment.aspx\">oral rehydration solution</a></li><li>Are Vomiting and <u><a href=\"/symptom/breathing\">breathing</a> faster than normal</u></li><li>Are Vomiting and have stopped breastfeeding during the illness</li><li>Are vomiting and have a<u> low or high <a href=\"/symptom/temperature\">temperature</a>,</u>&nbsp; <u>non-blanching <a href=\"/symptom/rash\">rash</a></u>&nbsp;are difficult to wake, dislike bright lights or has neck stiffness</li><li>Vomiting with other features of <a href=\"http://www.allergyuk.org/allergy-in-children/allergy-in-children\">allergy</a>: red itchy rash, swelling of lips, face and around the eyes, <u><a href=\"/symptom/diarrhoea\">diarrhoea</a></u>, sneezing and itchy eyes (your baby may rub their eyes)</li></ul>",
+        "lastEdited": "2017-12-31T03:52:37.901Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 3,
+    "fields": {
+        "headingId": 1,
+        "title": "Is my child\u2019s vomiting serious",
+        "text": "<p>Your child is unlikely to have a serious illness if they:\r\n  </p>\r\n<ul><li>have only vomited once with no other symptoms,</li><li>are feeding or drinking and eating normally,</li><li>are breathing normally,</li><li>have no signs of dehydration, and</li><li>are behaving normally.</li></ul>\r\n<p>You may need to take your child to see a health professional, such as a GP, if you are worried and they:\r\n  </p>\r\n<ul><li>Have been vomiting for more than 3 days with no other symptoms</li><li>Have been vomiting with loss of appetite, <u>cough</u>, runny nose or earache (your child may pull at the painful ear)</li></ul>\r\n<p>Your child may have a serious illness and needs to be seen immediately if they:\r\n  </p>\r\n<ul><li>have vomit which contains bile and looks green or contains blood</li><li>Are vomiting and have a distended (swollen) abdomen/tummy</li><li><u>Are </u><a href=\"/symptom/dehydration\">Dehydrated</a> and refusing to drink <a href=\"http://www.nhs.uk/Conditions/Dehydration/Pages/Treatment.aspx\">oral rehydration solution</a></li><li>Are Vomiting and <u>breathing faster than normal</u></li><li>Are Vomiting and have stopped breastfeeding during the illness</li><li>Are vomiting and have a<u> low or high <a href=\"/symptom/temperature\">temperature</a>,</u>&nbsp; <u>non-blanching <a href=\"/symptom/rash\">rash</a></u>, are difficult to wake, dislikes bright ligts or have neck stiffness</li><li>Vomiting with other features of <a href=\"http://www.allergyuk.org/allergy-in-children/allergy-in-children\">allergy</a>: red itchy rash, swelling of lips, face and around the eyes, <u><a href=\"/symptom/diarrhoea\">diarrhoea</a></u>, sneezing and itchy eyes (your child may rub their eyes)</li></ul>",
+        "lastEdited": "2017-12-31T03:54:27.837Z",
+        "ageGroup": [
+            5
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 4,
+    "fields": {
+        "headingId": 1,
+        "title": "Is my child\u2019s vomiting serious",
+        "text": "<p>Your child is unlikely to have a serious illness if they:\r\n  </p>\r\n<ul><li>have only vomited once with no other symptoms,</li><li>are feeding or drinking and eating normally,</li><li>are breathing normally,</li><li>have no signs of dehydration, and</li><li>are behaving normally.</li></ul>\r\n<p>You may need to take your child to see a health professional, such as a GP, if you are worried and they:\r\n  </p>\r\n<ul><li>Have been vomiting for more than 3 days with no other symptoms</li><li>Have been vomiting with loss of appetite, <u>cough</u>, runny nose or earache (your child may pull at the painful ear)</li></ul>\r\n<p>Your child may have a serious illness and needs to be seen immediately if they:\r\n  </p>\r\n<ul><li>have vomit which contains bile and looks green or contains blood</li><li>Are vomiting and have a distended (swollen) abdomen/tummy</li><li><u>Are </u><a href=\"/symptom/dehydration\">Dehydrated</a> and refusing to drink <a href=\"http://www.nhs.uk/Conditions/Dehydration/Pages/Treatment.aspx\">oral rehydration solution</a></li><li>Are Vomiting and <u><a href=\"/symptom/breathing\">breathing</a> faster than normal</u></li><li>Are vomiting and have a<u> low or high <a href=\"/symptom/temperature\">temperature</a>,</u>&nbsp; <u>non-blanching <a href=\"/symptom/rash\">rash</a></u>, are difficult to wake, dislikes bright lights, have a headache or neck stiffness</li><li>Vomiting with other features of <a href=\"http://www.allergyuk.org/allergy-in-children/allergy-in-children\">allergy</a>: red itchy rash, swelling of lips, face and around the eyes, <u><a href=\"/symptom/diarrhoea\">diarrhoea</a></u>, sneezing and itchy eyes (your child may rub their eyes)</li></ul>",
+        "lastEdited": "2017-12-31T03:56:20.926Z",
+        "ageGroup": [
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 5,
+    "fields": {
+        "headingId": 1,
+        "title": "Other related signs & symptoms of serious illness",
+        "text": "<p><u>High temperature</u></p>\r\n<p><u>Low temperature </u>in babies under 1 month of age</p>\r\n<p><u>Dehydration</u></p>\r\n<p><u>Non-blanching rash</u></p>\r\n<p>Symptoms of sepsis or meningitis: Less responsive and difficult to wake, <u>breathing faster or finding breathing more difficult, </u>neck stiffness, dislikes bright lights, severe headache in children</p>\r\n<p>Distended/swollen belly (abdomen)</p>\r\n<p>Rapid onset of symptoms of an allergic reaction: Swelling of lips, around the mouth, of the tongue, difficulty breathing</p>",
+        "lastEdited": "2017-12-31T03:57:04.577Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 6,
+    "fields": {
+        "headingId": 2,
+        "title": "How to look after your baby when they are vomiting",
+        "text": "<p>If your baby is vomiting but is not <u><a href=\"/symptom/dehydration\">dehydrated</a></u>:</p>\r\n<ul><li>keep feeding them as normal (for example, breast milk or formula), offering plenty of feeds.</li></ul>\r\n<p>If your baby is dehydrated follow this <u>link to information on how to treat dehydration</u></p>\r\n<p>If your baby has been rehydrated your baby should be given plenty of their normal feeds straight away. <em>Please note</em> breastfeeding should continue during the illness.</p>\r\n<p><strong>What <u>not </u>to do</strong><br></p>\r\n<ul><li>Do not give fruit juice and fizzy drinks, because these can make any diarrhoea worse.</li><li>Do not give any anti-vomiting medicines unless they have been prescribed for your baby by a health care professional for this episode of illness.</li></ul>",
+        "lastEdited": "2017-12-31T03:59:38.184Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 7,
+    "fields": {
+        "headingId": 2,
+        "title": "How to look after your child when they are vomiting",
+        "text": "<p>If your child is vomiting but is not <u><a href=\"/symptom/dehydration\">dehydrated</a></u>:</p>\r\n<ul><li>keep feeding them as normal (for example, breast milk, formula or their usual drinks), offering plenty of drinks.</li></ul>\r\n<p>If your child is dehydrated follow this <u>link to information on how to treat dehydration</u></p>\r\n<p>If your child has been rehydrated, your child should be given plenty of drinks and can eat solid food straight away. <i>Please note</i> breastfeeding should continue during the illness.</p>\r\n<p><b><u>What not to do</u></b>\r\n  </p>\r\n<ul><li>Do not give fruit juice and fizzy drinks, because these can make any diarrhoea worse.</li><li>Do not give any anti-vomiting medicines unless prescribed for your child by a health care professional for this episode of illness.</li></ul>",
+        "lastEdited": "2017-12-31T04:05:26.117Z",
+        "ageGroup": [
+            5
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 8,
+    "fields": {
+        "headingId": 2,
+        "title": "How to look after your child when they are vomiting",
+        "text": "<p>If your child is vomiting but is not <u><a href=\"/symptom/dehydration\">dehydrated</a></u>:</p>\r\n<ul><li>keep feeding them as normal, offering plenty of drinks.</li></ul>\r\n<p>If your child is dehydrated follow this <u>link to information on how to treat dehydration</u></p>\r\n<p>If your child has been rehydrated your child should be given plenty of drinks and can eat solid food straight away. </p>\r\n<p><strong><u>What not to do</u></strong>\r\n  </p>\r\n<ul><li>Do not give fruit juice and fizzy drinks, because these can make any diarrhoea worse.</li><li>Do not give any anti-vomiting medicines unless prescribed for your child by a health care professional for this episode of illness</li></ul>",
+        "lastEdited": "2017-12-31T04:06:10.864Z",
+        "ageGroup": [
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 9,
+    "fields": {
+        "headingId": 2,
+        "title": "How to prevent other people getting it",
+        "text": "<p>The commonest cause of vomiting is an infection in the gut called \u2018gastroenteritis\u2019 which usually also causes <a href=\"/symptom/diarrhoea\">diarrhoea</a>as well.&nbsp; </p>\r\n<p>It is important to prevent other people from getting the infection. </p>\r\n<p>Hand washing is the best way to help stop other people getting gastroenteritis. You and/or your baby/child should wash your hands with soap (liquid if possible) in warm running water and then dry them carefully:</p>\r\n<ul><li>after going to the toilet&nbsp;</li><li>after changing nappies</li><li>before touching food.</li></ul>\r\n<p>Your baby/child should not: </p>\r\n<ul><li>share his or her towels with anyone</li><li>go to school or any other childcare facility until 48 hours after the last episode of diarrhoea or vomiting</li><li>swim in swimming pools until 2 weeks after the <a href=\"/symptom/diarrhoea\">diarrhoea</a> has stopped.</li></ul>",
+        "lastEdited": "2017-12-31T04:07:31.150Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 10,
+    "fields": {
+        "headingId": 3,
+        "title": "How to spot dehydration in your baby",
+        "text": "<table><thead><tr><th>No signs of dehydration</th><th>Moderate Dehydration</th><th>Severe Dehydration</th></tr></thead><tbody><tr><td>Behaving normally<br>Normal\r\nnumber of wet nappies or wees<br>Warm\r\nhands and feet<br>Normal breathing pattern</td><td>Seems unwell<br>Less active than normal<br>Not interested in playing<br>Less responsive than normal, irritable and/or sleepy<br>Not feeding as well as normal<br>Fewer or no tears when&nbsp; crying (over 6 weeks old)<br>Fewer wet nappies or wees than normal<br>Skin pale. For dark skin look at their gums or inside their lower eyelid.<br>Cold hands and feet<br>Breathing\r\nfaster than normal</td><td>Difficult to wake and does not stay awake<br>No tears when crying (over 6 weeks old)<br>Skin blotchy (mottled), very pale or grey (ashen) or blue<br>Cold hands and feet<br>Breathing much faster than normal</td></tr></tbody></table>",
+        "lastEdited": "2018-01-02T22:39:14.586Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 11,
+    "fields": {
+        "headingId": 3,
+        "title": "How to spot dehydration in your child",
+        "text": "<table><thead><tr><th>No signs of dehydration</th><th>Moderate Dehydration</th><th>Severe Dehydration</th></tr></thead><tbody><tr><td>Behaving normally<br>Normal\r\nnumber of wet nappies or wees<br>Warm\r\nhands and feet<br>Normal breathing pattern</td><td>Seems unwell<br>Not interested in playing<br>Less responsive than normal, irritable and/or sleepy<br>Not feeding as well as normal<br>Fewer tears when&nbsp; crying<br>Sunken or hollow eyes<br>Weeing less or having fewer wet nappies than normal<br>Skin looks pale. For dark skin look at their gums or inside their lower eyelid.<br>Cold hands and feet<br>Breathing\r\nfaster than normal at rest</td><td>Difficult to wake and does not stay awake when woken<br>Cries without tears<br>Skin blotchy (mottled), very pale or grey (ashen) or blue<br>Cold hands and feet<br>Breathing much faster than normal at rest</td></tr></tbody></table>",
+        "lastEdited": "2018-01-02T22:42:45.946Z",
+        "ageGroup": [
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 12,
+    "fields": {
+        "headingId": 4,
+        "title": "How to care for your baby when they are  dehydrated",
+        "text": "<p>Most babies who are dehydrated can be rehydrated by giving them <u><a href=\"http://www.nhs.uk/Conditions/Dehydration/Pages/Treatment.aspx\">oral rehydration solution (ORS) </a></u>to drink. This will help to replace lost fluids, salts and sugars. </p>\r\n<p>Make up the <u><a href=\"http://www.nhs.uk/Conditions/Dehydration/Pages/Treatment.aspx\">ORS </a></u>according to the instructions on the packet. </p>\r\n<p>If you are breastfeeding continue with breastfeeding and add frequent small drinks of <u><a href=\"http://www.nhs.uk/Conditions/Dehydration/Pages/Treatment.aspx\">ORS</a></u>&nbsp;in addition to their breastmilk until they are no longer dehydrated. </p>\r\n<p>If you are formula feeding, just give your baby frequent small drinks of <u><a href=\"http://www.nhs.uk/Conditions/Dehydration/Pages/Treatment.aspx\">ORS</a></u>&nbsp;<strong><em>instead of </em></strong>their usual formula milk until they are no longer dehydrated. </p>\r\n<p>It can often be better to give babies smaller amounts of fluid more frequently.</p>\r\n<p>It usually takes about four hours to complete rehydration.</p>\r\n<p><em><span style=\"color: #7f6000;\">Video of parent giving baby ORS</span></em></p>\r\n<p>If your baby is dehydrated and won\u2019t drink ORS see your GP</p>\r\n<p><strong>What you should not do</strong><br></p>\r\n<p>Don't dilute your baby's formula (if you use it). Give <u><a href=\"http://www.nhs.uk/Conditions/Dehydration/Pages/Treatment.aspx\">ORS </a></u>instead.</p>\r\n<p>Avoid giving your baby fruit juice or fizzy drinks, particularly&nbsp;if they have <a href=\"/symptom/diarrhoea\">diarrhoea</a> and <a href=\"/symptom/vomiting\">vomiting</a>,&nbsp;because it can&nbsp;make it worse. </p>\r\n<p>If your baby is on solids, do not give them any solid food until they are rehydrated.</p>",
+        "lastEdited": "2018-01-02T22:46:07.388Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 13,
+    "fields": {
+        "headingId": 4,
+        "title": "How to care for your child when they are  dehydrated",
+        "text": "<p>Most children who are dehydrated can be rehydrated by giving them <u><a href=\"http://www.nhs.uk/Conditions/Dehydration/Pages/Treatment.aspx\">oral rehydration solution (ORS) </a></u>to drink. This will help to replace lost fluids, salts and sugars. </p>\r\n<p>Make up the <u><a href=\"http://www.nhs.uk/Conditions/Dehydration/Pages/Treatment.aspx\">ORS </a></u>according to the instructions on the packet. </p>\r\n<p>Give your child regular small drinks (a few times an hour) of <a href=\"http://www.nhs.uk/Conditions/Dehydration/Pages/Treatment.aspx\">(ORS)&nbsp;</a></p>\r\n<p>It usually takes about four hours to complete rehydration</p>\r\n<p>If your child is dehydrated and won\u2019t drink ORS see your GP</p>\r\n<p><strong>What you should not do</strong>\r\n  </p>\r\n<p>Avoid giving your child fruit juice or fizzy drinks, particularly&nbsp;if they have <a href=\"/symptom/diarrhoea\">diarrhoea</a> and <a href=\"/symptom/vomiting\">vomiting</a>,&nbsp;because it can&nbsp;make it worse. </p>\r\n<p>Do not give your child any solid food until they are rehydrated.</p>",
+        "lastEdited": "2018-01-02T22:47:21.283Z",
+        "ageGroup": [
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 14,
+    "fields": {
+        "headingId": 5,
+        "title": "How serious is my baby\u2019s diarrhoea?",
+        "text": "<p>Your baby is unlikely to have a serious illness if they: \r\n  </p>\r\n<ul><li>are feeding or drinking and eating normally,</li><li>are <a href=\"/symptom/breathing\">breathing</a> normally,</li><li>have no signs of <a href=\"/symptom/dehydration\">dehydration</a>, and</li><li>are behaving normally.</li></ul>\r\n<p>If your baby has diarrhoea <strong>and</strong> other symptoms it is more likely the illness is serious.&nbsp;</p><p><em>Add links to other related symptoms of serious illness.</em>\r\n  </p>\r\n<p>You may need to take your child to see a health professional, such as a GP, if you are worried and they:\r\n  </p>\r\n<ul><li>Have had six or more diarrhoea poos in the previous 24 hours</li><li>If they have had diarrhoea for more than two weeks</li></ul>\r\n<p>Your baby may have a serious illness and needs to be seen immediately if they:\r\n  </p>\r\n<ul><li>Have diarrhoea <strong><em>with</em></strong> other features of allergy: red itchy rash, swelling of lips, face and around the eyes, <a href=\"/symptom/vomiting\">vomiting</a>, sneezing and itchy eyes (your baby may rub their eyes).</li><li>Stopped breastfeeding during the illness</li><li>Are <a href=\"/symptom/dehydration\">dehydrated</a> and not tolerating <a href=\"http://www.nhs.uk/Conditions/Dehydration/Pages/Treatment.aspx\">oral rehydration solution</a></li><li>Have diarrhoea and have <a href=\"/symptom/diarrhoea\">vomited</a> &nbsp;three or more times in the previous 24&nbsp;hours</li><li>Have diarrhoea poo which contains blood and/or mucous</li><li>Have diarrhoea and severe tummy pain (babies may pull their knees up when they have tummy pain).</li></ul>",
+        "lastEdited": "2018-01-02T22:58:17.815Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 15,
+    "fields": {
+        "headingId": 5,
+        "title": "How serious is my child\u2019s diarrhoea?",
+        "text": "<p>Your child is unlikely to have a serious illness if they: \r\n  </p>\r\n<ul><li>are feeding or drinking and eating normally,</li><li>are <a href=\"/symptom/breathing\">breathing</a> normally,</li><li>have no signs of <a href=\"/symptom/dehydration\">dehydration</a>, and</li><li>are behaving normally.</li></ul>\r\n<p>If your baby has diarrhoea <strong>and</strong> other symptoms it is more likely the illness is serious.&nbsp;</p><p><em>Add links to other related symptoms of serious illness.</em>\r\n  </p>\r\n<p>You may need to take your child to see a health professional, such as a GP, if you are worried and they:\r\n  </p>\r\n<ul><li>Have had six or more diarrhoea poos in the previous 24 hours</li><li>If they have had diarrhoea for more than two weeks</li></ul>\r\n<p>Your child <strong><em>may</em></strong> have a serious illness and needs to be seen immediately if they:\r\n  </p>\r\n<ul><li>Have diarrhoea with other features of allergy: red itchy rash, swelling of lips, face and around the eyes, <a href=\"/symptom/vomiting\">vomiting</a>, sneezing and itchy eyes (your child may rub their eyes).</li><li>Are <a href=\"/symptom/dehydration\">dehydrated</a> and not tolerating <a href=\"http://www.nhs.uk/Conditions/Dehydration/Pages/Treatment.aspx\">oral rehydration solution</a></li><li>Have diarrhoea and have <a href=\"/symptom/vomiting\">vomited</a>&nbsp; three or more times in the previous 24&nbsp;hours</li><li>Have diarrhoea poo which contains blood and/or mucous</li><li>Have diarrhoea and severe tummy pain.</li></ul>",
+        "lastEdited": "2018-01-02T23:01:14.538Z",
+        "ageGroup": [
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 16,
+    "fields": {
+        "headingId": 5,
+        "title": "Other related signs & symptoms of serious illness",
+        "text": "<p>High <a href=\"/symptom/temperature\">temperature</a></p>\r\n<p>Low <a href=\"/symptom/temperature\">temperature</a>&nbsp; in babies under 1 month of age</p>\r\n<p><a href=\"/symptom/dehydration\">Dehydration</a></p>\r\n<p>Non-blanching&nbsp; <a href=\"/symptom/rash\">rash</a></p>\r\n<p>Symptoms of <a href=\"http://sepsistrust.org/public/do-i-have-sepsis/new-paeds-sepsis-card-4/\">sepsis</a> or <a href=\"http://www.meningitis.org/symptoms\">meningitis</a>: Less responsive and difficult to wake, <a href=\"/symptom/breathing\">breathing</a> faster or finding breathing more difficult<u> </u>neck stiffness (difficulty putting their chin on their chest), dislikes bright lights, severe headache in children</p>\r\n<p>Distended/swollen tummy.&nbsp;<em>Picture of distended abdomen</em></p>\r\n<p>Rapid onset of symptoms of <a href=\"http://www.allergyuk.org/allergy-in-children/allergy-in-children\">an allergic reaction</a>: Swelling of lips, around the mouth, of the tongue, and/or difficulty breathing</p>\r\n<p><em>Add link to within resource page on allergic reactions/anaphylaxis within Breathing symptom</em></p>",
+        "lastEdited": "2018-01-02T23:04:47.129Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 17,
+    "fields": {
+        "headingId": 6,
+        "title": "How to care for your baby with diarrhoea",
+        "text": "<p>If your baby has diarrhoea but is not <a href=\"/symptom/dehydration\">dehydrated</a>: </p>\r\n<ul><li>keep feeding them as normal (for example, breast milk or formula), offering plenty of drinks.</li></ul>\r\n<p>If your baby is dehydrated follow this <a href=\"http://www.nhs.uk/Conditions/Diarrhoea/Pages/Treatment.aspx\">link to information on how to treat dehydration</a><u>.</u></p>\r\n<p>If your baby has been rehydrated your baby should be given plenty of their normal feeds straight away. <em>Please note</em> breastfeeding should continue during the illness.</p>\r\n<p><strong>What not to do</strong>\r\n  </p>\r\n<p>Do not give fruit juice and fizzy drinks, because these can make diarrhoea worse. </p>\r\n<p>Anti-diarrhoeal medicines should not be given to babies without advice from a health care professional.</p>\r\n<p>Antibiotics are not recommended, unless the cause is known, as they may not work and may cause unpleasant side effects such as worsening diarrhoea.&nbsp;</p>",
+        "lastEdited": "2018-01-02T23:07:57.712Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 18,
+    "fields": {
+        "headingId": 6,
+        "title": "How to care for your child with diarrhoea",
+        "text": "<p>If your child has diarrhoea but is not <a href=\"/symptom/dehydration\">dehydrated</a>: </p>\r\n<ul><li>keep feeding them as normal (for example, breast milk or formula or their usual drinks), offering plenty of drinks.</li></ul>\r\n<p>If your child is dehydrated follow this <a href=\"http://www.nhs.uk/Conditions/Diarrhoea/Pages/Treatment.aspx\">link to information on how to treat dehydration</a><u>.</u></p>\r\n<p>If your child has been rehydrated your child should be given plenty of drinks and can eat solid food straight away. <em>Please note</em> breastfeeding should continue during the illness.</p>\r\n<p><strong>What not to do</strong>\r\n  </p>\r\n<p>Do not give fruit juice and fizzy drinks, because these can make diarrhoea worse. </p>\r\n<p>Anti-diarrhoeal medicines should not be given to children without advice from a health care professional.</p>\r\n<p>Antibiotics are not recommended, unless the cause is known, as they may not work and may cause unpleasant side effects such as worsening diarrhoea.&nbsp;</p>",
+        "lastEdited": "2018-01-02T23:10:19.555Z",
+        "ageGroup": [
+            5
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 19,
+    "fields": {
+        "headingId": 6,
+        "title": "How to care for your child with diarrhoea",
+        "text": "<p>If your child has diarrhoea but is not <a href=\"/symptom/dehydration\">dehydrated</a>: </p>\r\n<ul><li>keep feeding them as normal, offering plenty of drinks.</li></ul>\r\n<p>If your child is dehydrated follow this <a href=\"http://www.nhs.uk/Conditions/Diarrhoea/Pages/Treatment.aspx\">link to information on how to treat dehydration</a><u>.</u></p>\r\n<p>If your child has been rehydrated your child should be given plenty of drinks and can eat solid food straight away. <em>Please note</em> breastfeeding should continue during the illness.</p>\r\n<p><strong>What not to do</strong>\r\n  </p>\r\n<p>Do not give fruit juice and fizzy drinks, because these can make diarrhoea worse. </p>\r\n<p>Anti-diarrhoeal medicines should not be given to children without advice from a health care professional.</p>\r\n<p>Antibiotics are not recommended, unless the cause is known, as they may not work and may cause unpleasant side effects such as worsening diarrhoea.&nbsp;</p>",
+        "lastEdited": "2018-01-02T23:11:25.481Z",
+        "ageGroup": [
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 20,
+    "fields": {
+        "headingId": 6,
+        "title": "How to prevent other people from getting it",
+        "text": "<p>The commonest cause of diarrhoea is an infection in the gut called \u2018gastroenteritis\u2019 which can also cause <a href=\"/symptom/vomiting\">vomiting</a> as well.&nbsp; </p>\r\n<p>It is important to prevent other people from getting the infection. </p>\r\n<p>Hand washing is the best way to help stop other people getting gastroenteritis. You and/or your baby/child should wash your hands with soap (liquid if possible) in warm running water and then dry them carefully:</p>\r\n<ul><li>after going to the toilet&nbsp;</li><li>after changing nappies</li><li>before touching food.</li></ul>\r\n<p>Your baby/child should not: </p>\r\n<ul><li>share his or her towels with anyone</li><li>go to school or any other childcare facility until 48 hours after the last episode of diarrhoea or vomiting</li><li>swim in swimming pools until 2 weeks after the diarrhoea has stopped.</li></ul>\r\n<p>Please check your baby\u2019s/child\u2019s nursery or school policy on when to return following an episode of diarrhoea.</p>\r\n<p>Don't allow babies or children to swim in swimming pools for two weeks after the last episode of diarrhoea.</p>",
+        "lastEdited": "2018-01-02T23:13:09.274Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 21,
+    "fields": {
+        "headingId": 7,
+        "title": "How diarrhoea affects your baby/child",
+        "text": "<p>A gut infection is the commonest cause of diarrhoea in babies and children.</p>\r\n<p>The infection makes the gut sore and irritable. This can cause vomiting and stomach cramps. It can also stop the gut from absorbing fluids normally leading to watery poo (diarrhoea). This is why babies and children can become <a href=\"/symptom/dehydration\">dehydrated</a>.</p>\r\n<p>During the illness fluid intake is much more important than food.</p>\r\n<p>Babies and children will soon regain any weight lost during the illness</p>",
+        "lastEdited": "2018-01-02T23:14:30.017Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 22,
+    "fields": {
+        "headingId": 8,
+        "title": "What is a low or high temperature in a baby?",
+        "text": "<table><thead><tr><th>Low Temperature</th><th>Normal Temperature</th><th>Slightly Raised Temperature</th><th>High Temperature</th></tr></thead><tbody><tr><td>Less than 36 \u2103</td><td>Between 36 and 37.5 \u2103</td><td>Between 37.5 and 38 \u2103</td><td>38 \u2103 and above</td></tr></tbody></table>\r\n<p>Low temperatures in babies under 1\r\nmonth of age can be sign of serious illness</p>\r\n<p>High temperature (fever) in babies\r\nunder 3&nbsp;months is rare and can be a sign of serious illness or infection.</p>",
+        "lastEdited": "2018-01-02T23:33:53.741Z",
+        "ageGroup": [
+            1
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 23,
+    "fields": {
+        "headingId": 8,
+        "title": "What is a high or low  temperature in a baby",
+        "text": "<table><thead><tr><th>Low Temperature</th><th>Normal Temperature</th><th>Slightly Raised Temperature</th><th>High Temperature</th></tr></thead><tbody><tr><td>Less than 36 \u2103</td><td>Between 36 and 37.5 \u2103</td><td>Between 37.5 and 37.9 \u2103</td><td>38 \u2103 and above</td></tr></tbody></table>\r\n<p>Low temperature in a baby with other signs of illness can be a sign of serious illness.</p>\r\n<p>High temperature (fever) in babies\r\nunder 3&nbsp;months is rare and can be a sign of serious illness or infection.</p>",
+        "lastEdited": "2018-01-02T23:37:25.309Z",
+        "ageGroup": [
+            2
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 24,
+    "fields": {
+        "headingId": 8,
+        "title": "What is a high or low temperature in a baby",
+        "text": "<table><thead><tr><th>Low Temperature</th><th>Normal Temperature</th><th>Slightly Raised Temperature</th><th>High Temperature</th></tr></thead><tbody><tr><td>Less than 36 \u2103</td><td>Between 36 and 37.5 \u2103</td><td>Between 37.5 and 38.9 \u2103</td><td>39 \u2103 and above</td></tr></tbody></table>\r\n<p>If your baby has a low or a high temperature <strong>and</strong> other symptoms it is more likely the illness is serious. <em>Add links to other symptoms of serious illness</em></p>\r\n<p>\r\n  </p>\r\n<p>You should seek advice from a health care professional if the fever lasts consistently for more than 5 days.<br></p>",
+        "lastEdited": "2018-01-02T23:37:13.118Z",
+        "ageGroup": [
+            3
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 25,
+    "fields": {
+        "headingId": 8,
+        "title": "What is a high or low temperature for a child",
+        "text": "<table><thead><tr><th>Low Temperature</th><th>Normal Temperature</th><th>Slightly Raised Temperature</th><th>High Temperature</th></tr></thead><tbody><tr><td>Less than 36 \u2103</td><td>Between 36 and 37.5 \u2103</td><td>Between 37.5 and 38.9 \u2103</td><td>39 \u2103 and above</td></tr></tbody></table>\r\n<p>If your child has a low or high temperature <b>and</b> other symptoms it is more likely the illness is serious. Add links to other symptoms of serious illness.</p>\r\n<p>\r\n  </p>\r\n<p>You should seek advice from a health care professional if the fever lasts consistently for more than 5 days.</p>",
+        "lastEdited": "2018-01-02T23:36:55.081Z",
+        "ageGroup": [
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 26,
+    "fields": {
+        "headingId": 8,
+        "title": "How to measure body temperature?",
+        "text": "<p><b>What type of thermometer should you use?</b>\r\n  </p>\r\n<ul><li><b>upto</b><b> 28 days</b>:&nbsp; Measure your baby\u2019s temperature with an electronic thermometer under their arm (in the axilla).</li><li><b>1 to 3 months, 3-6 months, 6-12months, 12-24 months, 2 to 5 years</b>: Measure your baby or child\u2019s temperature either with an electronic thermometer under their arm (in the axilla) or with an ear thermometer (sometimes called an infra-red tympanic thermometer or an aural thermometer).</li></ul>\r\n<p>Ear thermometer <em>Video or picture</em></p>\r\n<p>Digital thermometer <em>Video or picture</em></p>\r\n<p><b>Not recommended:</b>\r\n  </p>\r\n<p>Assessing body temperature without a thermometer is unreliable and is therefore not recommended.\r\n  </p>\r\n<p>Forehead temperature strips are not recommended as they measure skin temperature not core temperature.&nbsp;\r\n</p>",
+        "lastEdited": "2018-01-02T23:38:31.026Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 27,
+    "fields": {
+        "headingId": 8,
+        "title": "Other signs and symptoms which indicate the illness might be serious",
+        "text": "<p>Drowsy/sleepy and not easy to wake \u2013 <em>Video</em></p>\r\n<p>Pale/ashen/grey/blue skin \u2013 link to colour in <a href=\"/symptom/breathing\">breathing</a></p>\r\n<p>Blotchy (mottled) skin on limbs or body (more than normal)- link to colour in <a href=\"/symptom/breathing\">breathing</a></p>\r\n<p>Cold and clammy/damp hands and feet</p>\r\n<p>Not feeding as much as normal in a baby</p>\r\n<p>Faster <a href=\"/symptom/breathing\">breathing</a> or difficulty breathing</p>\r\n<p>Signs of <a href=\"/symptom/dehydration\">dehydration</a></p>\r\n<p>Non-blanching <a href=\"/symptom/rash\">rash</a></p>\r\n<p>Neck stiffness \u2013 <em>Video of normal & abnormal</em></p>\r\n<p>Fitting \u2013 Video: a febrile fit, normal sleep movements, rigors in older child</p>\r\n<p>Bulging soft spot on the top of your baby\u2019s head \u2013 <em>Pictures of bulging fontanelle, normal fontanelle and sunken fontanelle</em></p>\r\n<p>Muscle ache or joint pain</p>\r\n<p><em>If your baby is under 3 months old and has a low or a high temperature you should seek help. They do not need to have any other symptoms.</em></p>",
+        "lastEdited": "2018-01-02T23:43:30.518Z",
+        "ageGroup": [
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 28,
+    "fields": {
+        "headingId": 9,
+        "title": "How to look after your baby with a high temperature",
+        "text": "<p><strong>What you can do</strong>\r\n  </p>\r\n<p>Most babies with a raised temperature can be cared for at home.</p>\r\n<p>Offer your baby frequent drinks</p>\r\n<p>If you are breastfeeding just continue. You may need to feed more frequently than normal. Remember breastfeeding Mums need to drink more too.</p>\r\n<p>Comfort your baby as only you know how!</p>\r\n<p>Keep your baby comfortable \u2013 not too hot and not too cold. Use just enough covers for them to look relaxed. </p>\r\n<p>Check on your baby or child during the night. They should respond to your touch as they normally do when asleep.&nbsp; </p>\r\n<p>Keep your baby or child away from nursery or play groups while they have a high temperature.</p>\r\n<p><strong>What not to do</strong>\r\n  </p>\r\n<p>Do not wrap your baby in lots of layers when they have a high temperature.&nbsp;</p><p><b>Which medicines to use & how</b>\r\n  </p>\r\n<p>Medicines will not hide serious illness </p>\r\n<p>If your child seems distressed, consider giving them children\u2019s paracetamol or ibuprofen. These shouldn\u2019t be given together. However, if you give your child one medicine and it doesn\u2019t seem to be helping, it\u2019s OK to try the other one before the next dose is due.</p>\r\n<p>Always check the instructions on the bottle or packet carefully, and never exceed the recommended dose. Link to info on medicines <a href=\"http://www.nhs.uk/Conditions/pregnancy-and-baby/Pages/childrens-medicines.aspx\">http://www.nhs.uk/Conditions/pregnancy-and-baby/Pages/childrens-medicines.aspx#close</a> </p>\r\n<p><a href=\"http://www.nhs.uk/conditions/pregnancy-and-baby/pages/treating-high-temperature-children.aspx\">http://www.nhs.uk/conditions/pregnancy-and-baby/pages/treating-high-temperature-children.aspx</a> </p>\r\n<p><b>What not to do</b>\r\n  </p>\r\n<p>Paracetamol is not recommended for babies under 2 months of age and ibuprofen is not recommended for babies under 3 months old.</p>\r\n<p>In babies and children over 2 months old paracetamol or over 3 months old ibuprofen should only be used if the child is distressed, not just to bring a temperature down. These medicines do not treat the cause of illness nor do they reduce the risk of a child having a febrile convulsion.</p>\r\n<p>Never give aspirin to children under the age of 16.&nbsp;</p>",
+        "lastEdited": "2018-01-02T23:47:18.379Z",
+        "ageGroup": [
+            3,
+            1,
+            2
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 29,
+    "fields": {
+        "headingId": 9,
+        "title": "How to look after your baby or child with a high temperature",
+        "text": "<p><strong>What you can do</strong>\r\n  </p>\r\n<p>Most babies and children with a raised temperature can be cared for at home.</p>\r\n<p>Offer your baby or child frequent drinks</p>\r\n<p>If you are breastfeeding just continue. </p>\r\n<p>Comfort your baby or child as only you know how!</p>\r\n<p>Keep your child comfortable. Take covers off if they are hot and sweaty. If they are shivering, add just enough covers to stop the shivering.</p>\r\n<p>Check on your baby or child during the night. They should respond to your touch as they normally do when asleep.&nbsp; </p>\r\n<p>Keep your baby or child away from play group, nursery or school while they have a high temperature.</p><p><b>Which medicines to use & how</b>\r\n  </p>\r\n<p>Medicines will not hide serious illness </p>\r\n<p>If your child seems distressed, consider giving them children\u2019s paracetamol or ibuprofen. These shouldn\u2019t be given together. However, if you give your child one medicine and it doesn\u2019t seem to be helping, it\u2019s OK to try the other one before the next dose is due.</p>\r\n<p>Always check the instructions on the bottle or packet carefully, and never exceed the recommended dose. </p>\r\n<p>Video showing administration of medicines to children at several ages, using an oral syringe or a medicine cup.</p>\r\n<p>Link to info on medicines <a href=\"http://www.nhs.uk/Conditions/pregnancy-and-baby/Pages/childrens-medicines.aspx\">http://www.nhs.uk/Conditions/pregnancy-and-baby/Pages/childrens-medicines.aspx#close</a> </p>\r\n<p><b>What not to do</b>\r\n  </p>\r\n<p>Paracetamol or ibuprofen should only be used if your child is distressed, not just to bring a temperature down. These medicines do not treat the cause of illness nor do they reduce the risk of a child having a febrile convulsion.</p>\r\n<p>Never give aspirin to children under the age of 16.&nbsp;</p>",
+        "lastEdited": "2018-01-02T23:48:38.484Z",
+        "ageGroup": [
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 30,
+    "fields": {
+        "headingId": 9,
+        "title": "What to do if a/your child has a febrile convulsion (fit)",
+        "text": "<p><strong>What is a febrile convulsion (fit or seizure)?</strong>\r\n  </p>\r\n<ul><li>A febrile seizure is a fit that can happen when a child has a high temperature. They are relatively common in children between 6 months and 3 years and, in most cases, aren't serious.</li><li>During a febrile seizure, the child's body usually becomes stiff, they lose consciousness and their arms and legs twitch. Some children may wet themselves. Video: a febrile fit, normal sleep movements, rigors in older child;</li></ul>\r\n<p><strong>What do I do if my child is having a febrile convulsion?</strong>\r\n  </p>\r\n<ul><li>Place them in the recovery position. Lay them on their side, on a soft surface, with their face turned to one side. This will stop them swallowing any vomit, keep their airway open and help prevent injury. Picture</li><li>Stay with&nbsp;your child&nbsp;and try to make a note of how long the seizure lasts.</li><li><strong><em>If it's your child's first seizure, or it lasts longer than five minutes,&nbsp;take them to the&nbsp;nearest hospital&nbsp;as soon as possible, or dial 999 for an ambulance. </em></strong>While it's unlikely that there's anything seriously wrong,&nbsp;it's best to be sure.</li><li>If&nbsp;your child has had&nbsp;febrile seizures&nbsp;before and the seizure lasts for less than five minutes, phone your GP or&nbsp;NHS 111&nbsp;for advice.</li><li>Almost all children make a complete recovery after having a febrile seizure.</li><li>For more information <a href=\"http://www.nhs.uk/Conditions/Febrile-convulsions/Pages/Introduction.aspx\">http://www.nhs.uk/Conditions/Febrile-convulsions/Pages/Introduction.aspx</a></li></ul>\r\n<p><strong>What not to do</strong>\r\n  </p>\r\n<ul><li>Don't put anything, including medication,&nbsp;in your child\u2019s mouth during a seizure because there's a slight chance that&nbsp;they might bite their tongue.</li></ul>",
+        "lastEdited": "2018-01-02T23:50:17.008Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 31,
+    "fields": {
+        "headingId": 9,
+        "title": "What you should not do",
+        "text": "<p>Babies and children with a raised temperature should not be sponged with warm or cool water or placed in cool or cold baths. Cooling the skin may cause shivering and other body responses which heat the body up, adding to the already raised temperature.&nbsp; </p>\r\n<p>Children should not be wrapped up to sweat it out. Wrapping prevents heat from escaping when the body needs to loose heat and may also increase the child\u2019s temperature.</p>\r\n<p>Never give aspirin to children under the age of 16.</p>",
+        "lastEdited": "2018-01-02T23:51:00.290Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 32,
+    "fields": {
+        "headingId": 10,
+        "title": "Causes of high temperatures",
+        "text": "<p>NHS Choices has a useful page explaining why temperatures happen</p><p><a href=\"http://www.nhs.uk/conditions/feverchildren/Pages/Introduction.aspx\"></a></p>\r\n<p><a href=\"http://www.nhs.uk/conditions/feverchildren/Pages/Introduction.aspx\">http://www.nhs.uk/conditions/feverchildren/Pages/Introduction.aspx</a></p>",
+        "lastEdited": "2018-01-02T23:52:04.463Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 33,
+    "fields": {
+        "headingId": 10,
+        "title": "Why febrile convulsions (fits) happen",
+        "text": "<p>NHS Choices have a useful page which explains febrile convulsions</p>\r\n<p><a href=\"http://www.nhs.uk/Conditions/Febrile-convulsions/Pages/Causes.aspx\">http://www.nhs.uk/Conditions/Febrile-convulsions/Pages/Causes.aspx</a> </p>\r\n<p>Medicines for high temperature such as paracetamol and ibuprofen (Brufen) do not prevent febrile convulsions.</p>",
+        "lastEdited": "2018-01-02T23:52:40.119Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 34,
+    "fields": {
+        "headingId": 11,
+        "title": "Does my baby/child have a rash I should worry about",
+        "text": "<p>The most important thing to check for is to find out if the rash disappears when you press it. This is called blanching.</p>\r\n<p><em>Video showing how to test to see if it disappears</em></p>\r\n<p>All <u>non</u><u>-blanching rashes </u>need urgent medical assessment because they may be a <a href=\"http://sepsistrust.org/public/do-i-have-sepsis/new-paeds-sepsis-card-4/\">sign of serious illness such as sepsis </a></p>\r\n<p><u>Blanching rashes</u> in an <u>unwell child </u>may also need urgent medical assessment because they may be a sign of serious illness such as <a href=\"http://sepsistrust.org/public/do-i-have-sepsis/new-paeds-sepsis-card-4/\">sepsis</a></p>",
+        "lastEdited": "2018-01-03T00:10:50.166Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 35,
+    "fields": {
+        "headingId": 11,
+        "title": "Other related signs and symptoms of serious illness",
+        "text": "<h4>Signs of <a href=\"http://sepsistrust.org/public/do-i-have-sepsis/new-paeds-sepsis-card-4/\">sepsis</a> - one or more of the following:</h4>\r\n<ul><li>Blue, skin, lips or tongue (this is called cyanosis)</li><li>Blotchy (mottled) or very pale or grey (ashen) skin</li><li>High or low <a href=\"/symptom/temperature\">temperature</a></li><li><a href=\"/symptom/vomiting\">Vomiting</a> or feeling sick</li><li>Very sleepy, difficult to wake and does not stay awake when woken</li><li>Muscle ache or joint pain, leg pain</li><li>Cold hands and feet</li><li><a href=\"/symptom/breathing\">Breathing</a>fast</li><li>Hasn\u2019t had a wee or wet nappy for 12 hours</li><li>A non-blanching rash</li></ul>\r\n<p>If your baby or child has any of these symptoms you should seek help quickly.</p>\r\n<h4>Signs of <a href=\"http://www.meningitis.org/symptoms\">meningitis</a> </h4>\r\n<ul><li>Irritable with high pitched cry in babies,</li></ul>\r\n<p>Video or audio of high pitch cry\r\n  </p>\r\n<ul><li>Dislikes bright lights,</li><li>Older children may complain of a headache</li><li>Stiff neck (don\u2019t want to put their chin on their chest) or stiff body</li></ul>\r\n<p>Video clip 26l \u2013 testing for neck stiffness in 10 month old\r\n  </p>\r\n<ul><li>May have a non-blanching rash \u2013 not always present in meningitis</li><li>Sleepy and difficult to wake,</li><li>High <a href=\"/symptom/temperature\">temperature</a> (may be absent in babies under 3 months of age),</li><li><a href=\"/symptom/vomiting\">Vomiting</a></li><li>Hasn\u2019t had a wee or wet nappy for 12 hours</li></ul>\r\n<p>If your baby or child has any of these symptoms you should seek help quickly.</p>\r\n<h4>Symptoms of allergic reaction\r\n  </h4>\r\n<p>If your baby/child is having an allergic reaction you may see the following symptoms:\r\n  </p>\r\n<ul><li><strong>Skin reactions</strong> such as a red itchy rash or swelling of the lips, face and around the eyes,</li><li><strong>Digestive problems</strong> such as stomach ache, <a href=\"/symptom/vomiting\">vomiting</a>&nbsp;or <a href=\"/symptom/diarrhoea\">diarrhoea</a></li><li><strong>Hay fever-like symptoms</strong> such as sneezing and itchy eyes.</li></ul>\r\n<p>Symptoms can appear suddenly, with in a few&nbsp;minutes of exposure, or can take hours or days to develop. \r\n  </p>\r\n<p><strong>Severe allergic reactions (anaphylaxis)</strong> which happen occasionally:\r\n  </p>\r\n<ul><li>Swelling of the throat, cough, hoarse breathing sounds, sudden difficulty <a href=\"/symptom/breathing\">breathing</a>or wheezing.</li><li>This is because of swelling of the throat or lower airway which can be an early sign of an uncommon reaction called 'anaphylaxis\u2018 or \u2018anaphylactic shock\u2019.</li><li>Difficulty breathing can be severe enough to cause your child to lose consciousness</li><li>Anaphylaxis is a medical emergency and needs immediate treatment because in a small number of cases it can be fatal.</li></ul>\r\n<p>Read more about allergic reactions <a href=\"http://www.nhs.uk/conditions/Anaphylaxis/Pages/Introduction.aspx\">here</a>\r\n</p>\r\n<p><br></p>",
+        "lastEdited": "2018-01-03T00:21:10.984Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 36,
+    "fields": {
+        "headingId": 12,
+        "title": "Non-blanching rashes: Rashes which don\u2019t disappear when you press on them",
+        "text": "<p>A non-blanching rash looks like small red pinpricks at first. You can see this in these videos Clips 2b (3 month old) and 5a (11 week old)</p>\r\n<p>The rash then spreads and turns into red or purple blotches Video showing blotchy rash.</p>\r\n<p>If your baby/child has dark skin check for spots on paler areas of skin: palms of the hands, soles of the feet, inside the eyelids and on the roof of the mouth. Video showing non-blanching rash on darker skins.</p>\r\n<p>Non-blanching rashes happen in a number of conditions including <a href=\"http://sepsistrust.org/public/do-i-have-sepsis/new-paeds-sepsis-card-4/\">septicaemia (sepsis), </a><a href=\"http://www.itpsupport.org.uk/childhooditp.htm\">idiopathic thrombocytopenic purpura (ITP)</a>, <a href=\"http://www.nhs.uk/conditions/henoch-schonlein-purpura/Pages/Introduction.aspx\">Henoch </a><a href=\"http://www.nhs.uk/conditions/henoch-schonlein-purpura/Pages/Introduction.aspx\">Scholein</a><a href=\"http://www.nhs.uk/conditions/henoch-schonlein-purpura/Pages/Introduction.aspx\"> purpura (HSP)</a>.</p>\r\n<p>All <u>non-blanching rashes </u>need urgent medical assessment.</p>",
+        "lastEdited": "2018-01-03T00:15:03.497Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 37,
+    "fields": {
+        "headingId": 12,
+        "title": "Blanching rashes: Rashes which disappear when you press them",
+        "text": "<p>Blanching rashes in an unwell child may also need urgent medical assessment because they may be a sign of serious illness such as <a href=\"http://sepsistrust.org/public/do-i-have-sepsis/new-paeds-sepsis-card-4/\">sepsis </a></p>\r\n<p>There are lots of different rashes which fade under pressure such as:&nbsp; </p>\r\n<ul><li>Chickenpox</li><li>Measles</li><li>Mumps</li><li>Viral rash</li><li>Hand, foot and mouth</li><li>Slapped cheek</li><li>Scarlet fever</li><li>Impetigo</li><li>Cellulitis</li><li>Erythema multiform</li><li>Hives/allergic reactions</li></ul>\r\n<p>More pictures and information about these rashes can be found on the NHS Choices webpages on \u2018<a href=\"http://www.nhs.uk/conditions/skin-rash-children/Pages/Introduction.aspx\">Skin rashes in children</a>\u2019 and \u2018<a href=\"http://www.nhs.uk/Conditions/skin-rash-babies/Pages/Introduction.aspx\">Skin rashes in babies</a>\u2019.&nbsp;</p>",
+        "lastEdited": "2018-01-03T00:15:57.153Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 38,
+    "fields": {
+        "headingId": 13,
+        "title": "How to care for your baby with a non-blanching rash",
+        "text": "<p>Seek medical help for your baby if they have a <u>non-blanching rash</u></p>",
+        "lastEdited": "2018-01-03T00:22:20.598Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 39,
+    "fields": {
+        "headingId": 13,
+        "title": "How to care for your child with a non-blanching rash",
+        "text": "<p>Seek medical help if you child has a <u>non-blanching rash</u></p>",
+        "lastEdited": "2018-01-03T00:22:46.585Z",
+        "ageGroup": [
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 40,
+    "fields": {
+        "headingId": 13,
+        "title": "How to care for your baby with a blanching rash",
+        "text": "<p>Rashes should be checked for blanching regularly as blanching rashes can become non-blanching rashes that require urgent medical attention.</p>\r\n<p>Offer your baby frequent feeds to avoid <a href=\"/symptom/dehydration\">dehydration</a>.&nbsp;If you are formula feeding you can offer water as well as their usual feeds.</p>\r\n<p>If your baby has a high temperature follow <u>this link to information on temperature management.</u></p>\r\n<p>Keep the skin clean and dry</p>\r\n<p>Keep clothing loose fitting and choose smooth cotton clothing if possible.</p>\r\n<p>If they are scratching the rash keep finger nails clean and short to help prevent infection and future scaring.</p>\r\n<p>You can put socks or mittens on their hands at night to reduce damage caused by scratching when they are asleep</p>\r\n<p>If the rash is itchy you can soothe the skin by cooling it with calamine lotion or cooling gels available from pharmacies.</p><p>\r\n</p><p><strong>What not to do</strong>\r\n  </p>\r\n<p>Avoid sponging your baby down with cool water as this may make their skin too cold. This triggers the body to heat up which may increase, rather than reduce, their body temperature.</p>\r\n<p>Do not give chlorphenamine (Piriton) to babies under 1 year old.</p>",
+        "lastEdited": "2018-01-03T00:24:18.384Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 41,
+    "fields": {
+        "headingId": 13,
+        "title": "How to care for your child with a blanching rash",
+        "text": "<p>Rashes should be checked for blanching regularly as blanching rashes can become non-blanching rashes that require urgent medical attention.</p>\r\n<p>Offer your child frequent drinks to avoid <a href=\"/symptom/dehydration\">dehydration</a>. &nbsp;Sugar free ice lollies are a good way to encourage drinking and may soothe any sore spots in their mouth.</p>\r\n<p>If your child has a high temperature follow <u>this link to information on temperature management.</u></p>\r\n<p>Keep the skin clean and dry</p>\r\n<p>Keep clothing loose fitting and choose smooth cotton clothing if possible.</p>\r\n<p>If they are scratching the rash keep finger nails clean and short to help prevent infection and future scaring.</p>\r\n<p>You can put socks or mittens on their hands at night to reduce damage caused by scratching when they are asleep</p>\r\n<p>If the rash is itchy you can soothe the skin by cooling it with calamine lotion or cooling gels available from pharmacies.</p>\r\n<p>If the rash is very itchy&nbsp; a medicine called chlorphenamine (Piriton) can also help to relieve the itching. It's available from your pharmacist over the counter or it can be prescribed by your GP. </p>\r\n<p><strong>What not to do</strong>\r\n  </p>\r\n<p>Avoid sponging your child down with cool water as this may make their skin too cold. This triggers the body to heat up which may increase, rather than reduce, their body temperature.</p>",
+        "lastEdited": "2018-01-03T00:25:34.401Z",
+        "ageGroup": [
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 42,
+    "fields": {
+        "headingId": 13,
+        "title": "Preventing other people from getting it",
+        "text": "<p>If the illness is infectious there are steps you can take to reduce the chance of other people getting the infection.\r\n  </p>\r\n<ul><li>Use separate towels for the affected child.</li><li>Wipe objects such as toys and surfaces with a sterilising solution and wash infected clothing and bedding.</li><li>Keep your child at home until they are no longer infectious. In chickenpox and impetigo this is usually when all the spots have crusted over.</li><li>Avoid contact with people who are vulnerable to infection such as pregnant women, newborn babies, and anyone who has a weak immune system such as people being treated for cancer or taking steroid tablets.</li><li>Avoid kissing babies and young children if you have a cold sore.</li></ul>\r\n<p>Make sure your baby/child\u2019s immunisations are up to date. Click <a href=\"https://www.gov.uk/government/collections/immunisation\">here</a> for more information on the UK immunisation schedule.\r\n</p>",
+        "lastEdited": "2018-01-03T00:26:31.203Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 43,
+    "fields": {
+        "headingId": 14,
+        "title": "What is a fast breathing rate for my baby",
+        "text": "<p>All breathing rates are for babies\r\nat rest or asleep. When they are active or excited it is normal for their\r\nbreathing to increase</p>\r\n<table><thead><tr><th>Low breathing rate</th><th>Normal breathing rate</th><th>Slightly increased breathing rate</th><th>High breathing rate</th></tr></thead><tbody><tr><td>Less than 30 breaths per minute</td><td>30-40 breaths per minute</td><td>40-59 breaths per minute</td><td>60 or more breaths per minute</td></tr></tbody></table><p>Slightly increased breathing rates in a baby with no other symptoms is usually because they are more active. \r\n  </p>\r\n<p>Slightly increased breathing rates in a baby <b><i>with </i></b>other symptoms may indicate serious illness.\r\n  </p>\r\n<p>If your baby has a raised <a href=\"/symptom/temperature\">temperature</a> their breathing will also increase as the increase in temperature increases the body\u2019s demands for oxygen.&nbsp;</p><p><br></p>",
+        "lastEdited": "2018-01-07T15:53:12.446Z",
+        "ageGroup": [
+            1,
+            2,
+            3
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 44,
+    "fields": {
+        "headingId": 14,
+        "title": "What is a fast breathing rate for my baby",
+        "text": "<p>All breathing rates are for babies\r\nat rest or asleep. When they are active or excited it is normal for their\r\nbreathing to increase</p>\r\n<table><thead><tr><th>Low breathing rate</th><th>Normal breathing rate</th><th>Slightly increased breathing rate</th><th>High breathing rate</th></tr></thead><tbody><tr><td>Less than 30 breaths per minute</td><td>30-40 breaths per minute</td><td>50-59 breaths per minute</td><td>60 or more breaths per minute</td></tr></tbody></table>\r\n<p>Slightly increased breathing rates in a baby with no other symptoms is usually because they are more active. \r\n  </p>\r\n<p>Slightly increased breathing rates in a baby <strong><em>with </em></strong>other symptoms may indicate serious illness.\r\n  </p>\r\n<p>If your baby has a raised <a href=\"/symptom/temperature\">temperature</a> their breathing will also increase as the increase in temperature increases the body\u2019s demands for oxygen.&nbsp;</p>\r\n<p><br></p>",
+        "lastEdited": "2018-01-07T15:54:15.976Z",
+        "ageGroup": [
+            4
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 45,
+    "fields": {
+        "headingId": 14,
+        "title": "What is a fast breathing rate for my child",
+        "text": "<p>All breathing rates are for children at rest or asleep. When they are active or excited it is normal for their\r\nbreathing to increase</p>\r\n<table><thead><tr><th>Low breathing rate</th><th>Normal breathing rate</th><th>Slightly increased breathing rate</th><th>High breathing rate</th></tr></thead><tbody><tr><td>Less than 25 breaths per minute</td><td>25-39 breaths per minute</td><td>40-49 breaths per minute</td><td>50 or more breaths per minute</td></tr></tbody></table>\r\n<p>Slightly increased breathing rates in a child with no other symptoms is usually because they are more active. \r\n  </p>\r\n<p>Slightly increased breathing rates in a child&nbsp;<strong><em>with </em></strong>other symptoms may indicate serious illness.\r\n  </p>\r\n<p>If your child has a raised <a href=\"/symptom/temperature\">temperature</a> their breathing will also increase as the increase in temperature increases the body\u2019s demands for oxygen.&nbsp;</p>\r\n<p><br></p>",
+        "lastEdited": "2018-01-07T15:55:35.374Z",
+        "ageGroup": [
+            5
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 46,
+    "fields": {
+        "headingId": 14,
+        "title": "What is a fast breathing rate for my child",
+        "text": "<p>All breathing rates are for children at rest or asleep. When they are active or excited it is normal for their\r\nbreathing to increase</p>\r\n<table><thead><tr><th>Low breathing rate</th><th>Normal breathing rate</th><th>Slightly increased breathing rate</th><th>High breathing rate</th></tr></thead><tbody><tr><td>Less than 24 breaths per minute</td><td>24-34 breaths per minute</td><td>35-39 breaths per minute</td><td>40 or more breaths per minute</td></tr></tbody></table>\r\n<p>Slightly increased breathing rates in a child with no other symptoms is usually because they are more active. \r\n  </p>\r\n<p>Slightly increased breathing rates in a child&nbsp;<strong><em>with </em></strong>other symptoms may indicate serious illness.\r\n  </p>\r\n<p>If your child has a raised <a href=\"/symptom/temperature\">temperature</a> their breathing will also increase as the increase in temperature increases the body\u2019s demands for oxygen.&nbsp;</p>\r\n<p><br></p>",
+        "lastEdited": "2018-01-07T15:56:28.771Z",
+        "ageGroup": [
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 48,
+    "fields": {
+        "headingId": 16,
+        "title": "How to care for my baby/child with breathing problems",
+        "text": "<p><strong>How you can help your baby/child with a breathing problem</strong>\r\n  </p>\r\n<ul><li><strong>Positioning you baby/child</strong><br><ul><li>Babies with breathing problems should be positioned with their head higher than their bottoms. In a cot you can raise the head end of the cot by placing a pillow underneath the head of the mattress.</li><li>Young children with breathing problems should sit and sleep with their heads higher than their bottoms. Place a pillow(s) under the head of the mattress in their cot or bed. When sitting up support them in an upright position.</li><li>If you child sleeps upright make sure their head doesn\u2019t fall forwards by supporting it with a rolled-up blanket.</li></ul></li><li><strong>Relieving a blocked nose </strong>is important because babies and young children breathe through their noses most of the time. Saline nasal drops will help to loosen secretions (snot) so that it can be easily wiped away.</li><li><strong>Relieving coughing</strong><br><ul><li>Cough and cold remedies bought over the counter should not be used for children under 6 years of age as they have not been shown to work safely.</li><li>Making sure your baby/child has plenty to drink will help keep their secretions loose and easy to cough up.</li></ul></li><li><strong>Give lots of drinks \u2013 little and often</strong>\u2013 link to <a href=\"/symptom/dehydration\">dehydration</a> symptom. Keeping your baby/child well hydrated will help to keep their secretions in the chest and nose loose so that they can sneeze or cough it out.</li></ul><p><b>Things not to do</b>\r\n  </p>\r\n<ul><li><b>Do not use steam</b>: it is not likely to help your baby/ child\u2019s breathing and it may make it worse. Sources of steam such as kettles are dangerous and should never be in the room with a sick child. Loosening secretions is most effectively done by the body itself \u2013 just make sure your baby/child has plenty to drink.</li><li>Do not allow your baby/young child to sleep with their head directly on a pillow. Place the pillow under the mattress if you need to raise the head of their cot or bed.</li><li>Make sure your baby/child is not exposed to tobacco/cigarette smoke.</li></ul>\r\n<p><br></p>",
+        "lastEdited": "2018-01-07T16:03:28.546Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 49,
+    "fields": {
+        "headingId": 17,
+        "title": "Why breathing problems happen",
+        "text": "<p>Click on the following to access information explaining why breathing problems happen </p>\r\n<ul><li><a href=\"https://www.blf.org.uk/Page/Childrens-lung-conditions\">British Lung Foundation: Children's lung conditions</a></li><li><a href=\"https://www.nice.org.uk/guidance/ng9/ifp/chapter/Sources-of-advice-and-support\">NICE Bronchiolitis in children: Information for the public</a></li><li><a href=\"http://www.nhs.uk/Conditions/Respiratory-tract-infection/Pages/Introduction.aspx\">NHS Choices: Respiratory tract infections&nbsp;</a></li></ul>",
+        "lastEdited": "2018-01-07T16:04:13.596Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 50,
+    "fields": {
+        "headingId": 17,
+        "title": "Words used to describe breathing problems",
+        "text": "<p>Bliss: Common medical terms <u><a href=\"http://www.bliss.org.uk/common-medical-terms\">http://www.bliss.org.uk/common-medical-terms</a></u> </p>\r\n<p>GOSH: Search for medical conditions <u><a href=\"http://www.gosh.nhs.uk/medical-information-0/search-medical-conditions\">http://www.gosh.nhs.uk/medical-information-0/search-medical-conditions</a></u></p>",
+        "lastEdited": "2018-01-07T16:04:46.570Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 51,
+    "fields": {
+        "headingId": 17,
+        "title": "Words used to describe breathing problems",
+        "text": "<p>Bliss: Common medical terms <u><a href=\"http://www.bliss.org.uk/common-medical-terms\">http://www.bliss.org.uk/common-medical-terms</a></u> </p>\r\n<p>GOSH: Search for medical conditions <u><a href=\"http://www.gosh.nhs.uk/medical-information-0/search-medical-conditions\">http://www.gosh.nhs.uk/medical-information-0/search-medical-conditions</a></u></p>",
+        "lastEdited": "2018-01-07T16:04:46.889Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 52,
+    "fields": {
+        "headingId": 14,
+        "title": "How to count breathing",
+        "text": "<ol><li>Undress your baby/child so that you can see their chest and stomach</li><li>Count their breathing rate by counting each rise and fall of their stomach.</li><li>Each rise and fall is one breath.</li><li>Use a watch or clock with a second hand and count for a minute \u2013 Video</li><li>While your baby/child is undressed look at their chest & tummy movements <u>(Link to symptoms list) </u>and their breathing pattern <u>(Link to symptoms list)</u></li></ol>\r\n<p><u></u></p>",
+        "lastEdited": "2018-01-07T16:07:03.322Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 54,
+    "fields": {
+        "headingId": 14,
+        "title": "Breathing symptoms to look for",
+        "text": "<ul><li><a href=\"/symptom/information/15#56\">Behaviour</a> to look for</li><li><a href=\"/symptom/information/15#57\">Breathing Sounds</a> to listen for</li><li><a href=\"/symptom/information/15#58\">Chest and Tummy Movements</a> to look for</li><li><a href=\"/symptom/information/15#59\">Breathing patterns</a> to look for</li><li><a href=\"/symptom/information/15#60\">Skin Colour</a> to look for</li><li><a href=\"/symptom/information/15#61\">Symptoms of allergic reaction</a></li></ul>",
+        "lastEdited": "2018-01-07T16:27:50.395Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 55,
+    "fields": {
+        "headingId": 14,
+        "title": "Other related signs & symptoms of serious illness",
+        "text": "<ul><li><strong>Changes in body </strong><a href=\"/symptom/temperature\">temperature</a>&nbsp;<u>(link to body temperature symptom information)</u></li><li><strong><a href=\"/symptom/dehydration\">Dehydration</a>&nbsp;</strong>Your baby/child can become dehydrated with a breathing problem as they are unable to feed/drink enough. (<u>Link to dehydration symptom information)</u></li><li><strong></strong><a href=\"/symptom/vomiting\">Vomiting</a> sometimes happens after feeding/drinking in babies/children when they are working hard to breathe and the diaphragm pushes down into the stomach.</li><li><strong>Irritability or agitation </strong>Your baby/child may become irritable or agitated when they are unable to get enough oxygen into the body.</li><li><strong>Reduced consciousness </strong>Your baby/child is not responding as they usually would and/or may be hard to wake up.</li><li><strong>Lethargy</strong> Your baby/child is not interested in playing or doing anything and/or is a lot more sleepy than normal</li></ul>",
+        "lastEdited": "2018-01-07T16:11:22.072Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 56,
+    "fields": {
+        "headingId": 15,
+        "title": "Behaviour to look for",
+        "text": "<p>Feeding less than normal in a baby because they have to stop to breathe</p>\r\n<p>Your child isn\u2019t talking or drinking because they can\u2019t stop breathing long enough to talk or drink</p>\r\n<p>Your child is talking in broken sentences because they need to stop to breathe before the end of the sentence Video</p>\r\n<p>Your child has started to drool (when they usually do not)</p>\r\n<p>Your child is sitting leaning forward on their arms in a tripod position <a href=\"https://www.dropbox.com/sh/zyak2eztul449u2/AAAYNGmYLdAr7Ru5tVnR0DLva?lst=&preview=Case+27a.mp4\">Video: 8 month old </a>clip 27a</p>\r\n<p>Your baby/child is exhausted (not responding as they usually would, sleepy, irritable, floppy, hard to wake up). </p>\r\n<p>If your baby/child is exhausted their breathing may become quieter as they are no longer able to work hard to breathe</p>",
+        "lastEdited": "2018-01-07T16:13:58.668Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 57,
+    "fields": {
+        "headingId": 15,
+        "title": "Breathing sounds",
+        "text": "<p><strong>Croup cough</strong></p>\r\n<ul><li>Croup cough is a distinctive seal-like barking cough, caused by inflammation and irritation of the upper airways.</li><li>Recording of a croup cough</li><li>If your child has a croup cough they may also have a hoarse voice and make a noise called \u2018stridor\u2019 when they breathe in. You can hear these in these videos.</li><li><a href=\"https://www.dropbox.com/sh/zyak2eztul449u2/AAAYNGmYLdAr7Ru5tVnR0DLva?lst=&preview=Case+31a.mp4\">Video of 12 month old with croup sitting</a> clip 31a</li><li><a href=\"https://www.dropbox.com/sh/zyak2eztul449u2/AAAYNGmYLdAr7Ru5tVnR0DLva?lst=&preview=Case+31e.mp4\">Video of 12 month old with croup standing</a> clip 31e</li></ul><p><strong>Wheeze</strong></p><ul><li>A wheeze is noise on breathing out caused by narrowing of the lower airways.</li><li>Air can be pulled in through narrow airways but it is difficult to push it out again as breathing out is usually passive (muscles relax and air is flows out)</li><li><a href=\"https://www.dropbox.com/sh/zyak2eztul449u2/AAAYNGmYLdAr7Ru5tVnR0DLva?lst=&preview=Case+35a.mp4\">Video of a 19 month old with a wheeze</a> clip 35a</li><li>Sometimes breathing is noising when breathing in (called a stridor) and when breathing out (a wheeze)</li></ul>\r\n<p><strong>Stridor</strong><br></p><ul><li>A stridor is noise when breathing in, usually caused by narrowing of the upper airways.</li><li>Video or audio of a stridor</li><li>Sometimes breathing is noising when breathing in (a stridor) and when breathing out (called a wheeze)</li></ul>\r\n<p><strong>Whooping cough</strong></p><ul><li>Whooping is the name given to gasping for breath after an intense bout of repetitive coughing.</li><li>Each bout of coughing usually lasts between one and two minutes. Several bouts may occur in quick succession.</li><li>The coughing bouts are caused by irritation of the lining of the airways due to a bacterial infection.</li><li>Video or audio of whooping</li></ul><p><strong>Grunting</strong><br></p><ul><li>Grunting is a soft sound made by infants and young children when they let go of a breath after holding on to it.</li><li>Holding on to the breath helps to keep narrowed airways open.</li><li>In the first video you can hear soft grunting in the second half. In the second video the sound is louder.</li><li><a href=\"https://www.dropbox.com/sh/zyak2eztul449u2/AAAYNGmYLdAr7Ru5tVnR0DLva?lst=&preview=Case+35a.mp4\">Video of 19 month old grunting 1</a> clip 35a</li><li><a href=\"https://www.dropbox.com/sh/zyak2eztul449u2/AAAYNGmYLdAr7Ru5tVnR0DLva?lst=&preview=Case+35e.mp4\">Video of 19 month old grunting 2</a> clip 35e</li><li>If your baby or child is grunting this could be a sign of serious illness and you should seek help.</li></ul>\r\n<p><br></p>",
+        "lastEdited": "2018-01-07T16:18:05.398Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 58,
+    "fields": {
+        "headingId": 15,
+        "title": "Chest and tummy movements to look for",
+        "text": "<p>When babies and children are having to work harder to breathe you may see the following:\r\n  </p>\r\n<ul><li><strong>Chest caving in as they breathe in.</strong> You are more likely to see this in infants as their ribs are very soft and flexible.<br><ul><li><a href=\"https://www.dropbox.com/sh/zyak2eztul449u2/AAAYNGmYLdAr7Ru5tVnR0DLva?lst=&preview=Case+27c.mp4\">8 month old chest caving in and sucking in under ribs clip </a>27c</li></ul></li><li><strong>Shallow breathing. </strong>This happens when air is trapped in the bottom of the lungs due to infection. However it can also happened without a chest infection if they have tummy ache and are trying not to move their stomach.</li><li><strong>Sucking in under their ribs. </strong>This tells you they are working harder to breathe.<br><ul><li><a href=\"https://www.dropbox.com/sh/zyak2eztul449u2/AAAYNGmYLdAr7Ru5tVnR0DLva?lst=&preview=Case+30a2.mp4\">New baby showing sucking in under ribs </a>clip 30a2</li></ul></li><li><strong>Using tummy muscles to breathe.</strong> Tummy muscles help to pull air in.<br><ul><li><a href=\"https://www.dropbox.com/sh/zyak2eztul449u2/AAAYNGmYLdAr7Ru5tVnR0DLva?lst=&preview=Case+15d.mp4\">4 month old sucking in under ribs and using tummy muscles </a>Clip 15d</li><li><a href=\"https://www.dropbox.com/sh/zyak2eztul449u2/AAAYNGmYLdAr7Ru5tVnR0DLva?lst=&preview=Case+33b.mp4\">10 month old sucking in under ribs and using tummy muscles 1 </a>and <a href=\"https://www.dropbox.com/sh/zyak2eztul449u2/AAAYNGmYLdAr7Ru5tVnR0DLva?lst=&preview=Case+33c.mp4\">2</a>&nbsp; 33b & c</li><li><a href=\"https://www.dropbox.com/sh/zyak2eztul449u2/AAAYNGmYLdAr7Ru5tVnR0DLva?lst=&preview=Case+16d.mp4\">22 month old breathing fast and using abdominal muscles&nbsp; clip </a>16d</li></ul></li><li><strong>Using neck muscles to breathe. </strong>In babies this may cause <strong><em>head bobbing</em></strong>. All children may use these muscles to help pull air in.<br><ul><li><a href=\"https://www.dropbox.com/sh/zyak2eztul449u2/AAAYNGmYLdAr7Ru5tVnR0DLva?lst=&preview=Case+28b.mp4\">Newborn with head bobbing clip </a>28b</li></ul></li><li><strong>Sucking in around base of the neck. </strong>This happens when babies and children are working hard to pull air in.<br><ul><li><a href=\"https://www.dropbox.com/sh/zyak2eztul449u2/AAAYNGmYLdAr7Ru5tVnR0DLva?lst=&preview=Case+37.mp4\">2 year old sucking in at base of neck</a> clip 37</li><li><a href=\"https://www.dropbox.com/sh/zyak2eztul449u2/AAAYNGmYLdAr7Ru5tVnR0DLva?lst=&preview=Case+36a.mp4\">2 \u00bd year old sucking in at base of neck (Also shows sicking in under ribs, and soft sound of grunting</a>. Clip 36a</li></ul></li></ul>",
+        "lastEdited": "2018-01-07T16:20:28.549Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 59,
+    "fields": {
+        "headingId": 15,
+        "title": "Breathing patterns",
+        "text": "<ul><li><strong>Nasal flaring \u2013 </strong>your baby/child\u2019s nostrils are opening more widely than usual Video</li><li><strong>Head bobbing </strong>happens when babies use their neck muscles to help pull air into the lungs<br><ul><li><a href=\"https://www.dropbox.com/sh/zyak2eztul449u2/AAAYNGmYLdAr7Ru5tVnR0DLva?lst=&preview=Case+28b.mp4\">Newborn with head bobbing clip </a>28b</li></ul></li><li><strong>Pauses in breathing (called \u2018apnoeic spells\u2019) </strong>\u2013 not breathing for a short time. If your baby/child stops breathing for a long time (more than 10 seconds at a time), or there are regular shorter pauses in their breathing of 5-10 seconds this may be a sign of serious illness.</li><li><strong>Choking \u2013 </strong>is your child unable to cough, cry or breathe? Are their lips going blue? Have they inhaled something? Click the following links for videos showing what to do:<br><ul><li><a href=\"http://www.sja.org.uk/sja/first-aid-advice/first-aid-for-parents/choking-advice-for-parents.aspx\">St John\u2019s Ambulance</a></li><li><a href=\"http://www.redcross.org.uk/What-we-do/First-aid/Baby-and-Child-First-Aid/Choking-baby\">British Red Cross</a> (baby)</li><li><a href=\"http://www.redcross.org.uk/What-we-do/First-aid/Baby-and-Child-First-Aid/Choking-child\">British Red Cross</a> (child)</li><li><a href=\"http://www.nhs.uk/Conditions/pregnancy-and-baby/Pages/helping-choking-baby.aspx\">NHS Choices</a></li></ul></li><li>Tips on how to prevent choking are available from the Institute of Health Visiting <a href=\"http://ihv.org.uk/for-health-visitors/resources-for-members/resource/ihv-tips-for-parents/managing-minor-illness-and-reducing-accidents/safety-in-the-homechokingsuffocation-and-strangulation/\">here</a></li><li><strong>Shortness of breath </strong>describes children who seem to be struggling to breathe.</li></ul>",
+        "lastEdited": "2018-01-07T16:21:39.469Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 60,
+    "fields": {
+        "headingId": 15,
+        "title": "Skin colour to look for",
+        "text": "<ul><li><strong>Blue skin and lips </strong>(cyanosis) in respiratory illness show that your child\u2019s blood oxygen levels are low. In darker-skinned people it may be easier to spot in the gums and around the eyes. Read more about cyanosis <a href=\"http://www.nhs.uk/conditions/cyanosis/Pages/Introduction.aspx\">here</a></li></ul><ul><li><strong>Mottled skin </strong>\u2013 is skin which looks patchy in colour. In a sick baby or child this is caused by&nbsp; blood vessel changes in the skin which restrict blood flow to areas of the skin. In sick children this is caused by dehydration <u>(link to dehydration symptom information here).</u></li></ul>\r\n<p><u></u></p>",
+        "lastEdited": "2018-01-07T16:22:37.944Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.subheading",
+    "pk": 61,
+    "fields": {
+        "headingId": 15,
+        "title": "Symptoms of allergic reaction",
+        "text": "<p>If your baby/child is having an allergic reaction you may see the following symptoms:\r\n  </p>\r\n<ul><li><strong>Skin reactions </strong>such as a red itchy rash or swelling of the lips, face and around the eyes,</li><li><strong>Digestive problems </strong>such as stomach ache, <a href=\"/symptom/vomiting\">vomiting</a> or <a href=\"/symptom/diarrhoea\">diarrhoea</a></li><li><strong>Hay fever-like symptoms </strong>such as sneezing and itchy eyes.</li></ul>\r\n<p>Symptoms can appear suddenly, with in a few&nbsp; minutes of exposure, or can take hours or days to develop. \r\n  </p>\r\n<p><strong>Severe allergic reactions </strong>which happen occasionally:\r\n  </p>\r\n<ul><li>Swelling of the throat, cough, hoarse breathing sounds, sudden difficulty breathing or wheezing.</li><li>This is because of swelling of the throat or lower airway which can be an early sign of an uncommon reaction called 'anaphylaxis\u2018 or \u2018anaphylactic shock\u2019.</li><li>Difficulty breathing can be severe enough to cause your child to lose consciousness</li><li>Anaphylaxis is a medical emergency and needs immediate treatment because in a small number of cases it can be fatal.</li></ul>\r\n<p>Read more about allergic reactions <a href=\"http://www.nhs.uk/conditions/Anaphylaxis/Pages/Introduction.aspx\">here</a>\r\n</p>",
+        "lastEdited": "2018-01-07T16:24:52.699Z",
+        "ageGroup": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    }
+},
+{
+    "model": "iPoorly.diarylog",
+    "pk": 1,
+    "fields": {
+        "child": 2,
+        "created_on": "2018-01-01T22:52:58.755Z",
+        "text": "<p>This is a test form</p>"
+    }
+},
+{
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+        "name": "Admin",
+        "permissions": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,            
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36
+        ]
+    }
+},
+{
+    "model": "auth.group",
+    "pk": 2,
+    "fields": {
+        "name": "Users",
+        "permissions": []
+    }
+},
+{
+    "model": "auth.group",
+    "pk": 3,
+    "fields": {
+        "name": "Editors",
+        "permissions": [          
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36          
+        ]
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$30000$PLJLeOB9a9T6$wRlG99n+PkjKbNqOYX1/LCxypTuMwz/+AFftyfrq+aM=",
+        "last_login": "2018-01-09T00:00:15.483Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2017-12-31T02:13:45Z",
+        "groups": [
+            1
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$30000$qnBxnBSueIWR$+8Jx1Ve7lHBL72FN8Nk9kmfYZCrvCz7DYaxAPuCpbZc=",
+        "last_login": "2018-01-09T00:14:47.237Z",
+        "is_superuser": false,
+        "username": "zo",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2017-12-31T03:32:22Z",
+        "groups": [
+            2,
+            1,
+            3
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "iPoorly.child",
+    "pk": 1,
+    "fields": {
+        "username": 2,
+        "childName": "zozoa",
+        "dob": "2017-09-01",
+        "activate": true
+    }
+},
+{
+    "model": "iPoorly.child",
+    "pk": 2,
+    "fields": {
+        "username": 2,
+        "childName": "zozob",
+        "dob": "2015-05-12",
+        "activate": false
+    }
+}
+]

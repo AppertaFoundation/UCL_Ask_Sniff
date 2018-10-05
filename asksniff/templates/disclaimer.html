@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block title %}
+Disclaimer
+{% endblock %}
+
+
+{% block style %}
+{% endblock %}
+
+{% block content %}
+{% include "navbar.html" %}
+<main class="container">
+<h3>Disclaimer</h3>
+<ul class="browser-default flow-text">
+  <li>The information presented in this resource applies to children from birth to 5 years of age</li>
+  <li>The resource is designed to inform parents about signs and symptoms of acute childhood illness – those illnesses that have sudden onset and are short term.</li>
+  <li>In this first version the six most common symptoms are included: body temperature, breathing, vomiting, diarrhoea, dehydration and rash.</li>
+  <li>This is an information resource not a decision making tool.</li>
+  <li>If you are still worried about your child’s health after reading the information in this resource, seek professional help from your local health services.</li>
+  <li>The research and development teams take no responsibility for any actions taken or not taken following the use of this resource.</li>
+</ul>
+<form method="post" action="" class="center-align">{% csrf_token %}
+  <button class="btn waves-effect waves-light" type="submit">Agree</button>
+  {% if request.user.is_authenticated %}
+  <a class="btn waves-effect waves-light" href="{% url 'user_logout'%}">Cancel</a>
+  {% else %}
+  <a class="btn waves-effect waves-light" href="{% url 'index'%}">Cancel</a>
+  {% endif %}  
+</form>
+</main>
+{% endblock %}
+
+
+{% block javascript %}
+{% endblock %}

@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load custom %}
+
+{% block title %}
+iPoorly-My Children
+{% endblock %}
+
+
+{% block style %}
+<style>
+    span a:hover{
+    color: #4db6ac !important;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+{% include "navbar.html" %}
+<main class="container">
+<h3>My Children</h3>
+<p class="flow-text">Select a child. The information you will then see on the website will be tailored to the childs age</p>
+<a title="Add Child" href="#add_child" class="btn-floating btn-large waves-effect waves-light teal right"><i class="material-icons" style="cursor:pointer">person_add</i></a>
+
+{% if children %}
+{% for child in children %}
+<div class="row">
+    <div class="col s12 m6 l6 xl4 offset-m3 offset-l3 offset-xl4">
+        <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+                <span class="card-title center-align">
+                    {% if child.0.activate %}
+                    <a style="color:rgb(23, 248, 23);cursor:pointer" title="{{child.0}}" id="activate{{forloop.counter}}"><b>Active</b><br>{{child.0}} ({{child.1}})</a></span>
+                    {% else %}
+                    <a style="color:white;cursor:pointer" title="{{child.0}}" id="activate{{forloop.counter}}">{{child.0}} ({{child.1}})</a></span>
+                    {% endif %}
+                    
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+{% else %}
+<h4><b><i>No children added yet.</i></b></h3>
+{% endif %}
+
+<br><br><p>To manage your children (edit or delete) <a href="{% url 'child_manage' %}">click here</a></p>
+<div id="add_child" class="modal">
+    <form action="" method="POST"> {% csrf_token %}
+      <div class="modal-content">
+        <h3>Add a new child</h3>
+        <div class="row">
+            <div class="input-field col s12">                              
+                {{childForm.childName}}
+                {{childForm.childName.label_tag}}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s4"> 
+                {{childForm.dob.label_tag}}                             
+                {{childForm.dob}}               
+            </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="waves-effect waves-teal btn" type="submit" name="add">Add Child</button>
+        <a href="#!" class="modal-action modal-close waves-effect waves-teal btn-flat">Close</a>
+      </div>
+    </form>
+</div>
+</main>
+{% endblock %}
+
+
+{% block javascript %}
+<script src="{% static 'js/child_options.js' %}"></script>
+<script>
+  $(document).ready(function(){
+    // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+    $('.modal').modal();
+  });
+</script>
+<script>
+{% for child in children %}
+var activate_{{forloop.counter}} = document.getElementById("activate{{forloop.counter}}");
+activate_{{forloop.counter}}.onclick = function(){
+  activate_child({{child.0.id}});
+  return false;
+};
+{% endfor %}
+{% if error %}
+Materialize.toast('{{error}}', 8000) // 4000 is the duration of the toast
+{% endif %}
+</script>
+{% endblock %}

@@ -1,0 +1,65 @@
+{% load staticfiles %}
+<nav class="teal lighten-2 nav-extended">
+    <div class="nav-wrapper container">
+        <a href="{% url 'homepage' %}" class="brand-logo">iPoorly</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="{% url 'index' %}">Home</a></li>
+            {% if request.user.is_authenticated %}
+            <li><a href="{% url 'myChild' %}">My Children</a></li>
+            <li><a href="{% url 'diary' %}">Diary</a></li>
+            {% elif request.session.age_range %}
+            <li><a href="{% url 'age' %}">Select Age</a></li>
+            {% endif %}
+            <li><a href="{% url 'map' %}">Map</a></li>
+            <li><a href="{% url 'search' %}">Search</a></li>
+            {% if request.user.is_authenticated and 'iPoorly.delete_category' in request.user.get_group_permissions %}
+            <li><a href="{% url 'admin' %}">Admin</a></li>
+            <li><a a href="#modal_urls">All URLs</a></li>
+            {% endif %}
+            <li><a href="{% url 'user_logout' %}">
+                {% if request.user.is_authenticated %}
+                Logout
+                {% elif request.session.age_range %}
+                Exit
+                {% endif %}
+            </a></li>       
+            
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+            <li><a href="{% url 'index' %}">Home</a></li>            
+            {% if request.user.is_authenticated %}
+            <li><a href="{% url 'myChild' %}">My Children</a></li>
+            <li><a href="{% url 'diary' %}">Diary</a></li>            
+            {% elif request.session.age_range %}
+            <li><a href="{% url 'age' %}">Select Age</a></li>
+            {% endif %}
+            <li><a href="{% url 'map' %}">Map</a></li>
+            <li><a href="{% url 'search' %}">Search</a></li>
+            {% if request.user.is_authenticated and 'iPoorly.delete_category' in request.user.get_group_permissions %}
+            <li><a href="{% url 'admin' %}">Admin</a></li>
+            <li><a a href="#modal_urls">All URLs</a></li>
+            {% endif %}
+            <li><a href="{% url 'user_logout' %}">
+                {% if request.user.is_authenticated %}
+                Logout
+                {% elif request.session.age_range %}
+                Exit
+                {% endif %}
+            </a></li>  
+        </ul>
+    </div>
+</nav>
+
+<div class="fixed-action-btn">
+    <a class="btn-floating btn-large red" style="width:55px;height:55px;" href="#modal999" title="When to call 999"><b>999</b></a>
+</div>
+{% include "calling_999.html" %}
+{% if request.user.is_authenticated and 'iPoorly.delete_category' in request.user.get_group_permissions %}
+{% include "all_urls.html" %}
+{% endif %}
+<script src="{% static 'js/nav.js' %}"></script>
+
+
+
+

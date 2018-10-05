@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block title %}
+Admin - Heading
+{% endblock %}
+
+
+{% block style %}
+{% endblock %}
+
+{% block content %}
+{% include "navbar.html" %}
+<main class="container">
+<h3>Edit/Add Heading</h3>
+{{form.errors}}
+<form method="post" action=""> {% csrf_token %}
+    <div class="row">
+        <div class="input-field col s6">
+            {{form.categoryName}}
+            {{form.categoryName.label_tag}}
+        </div>
+    </div>
+    <div class="row">
+        <div class="input-field col s8">
+            {{form.text}}
+            {{form.text.label_tag}}
+        </div>
+    </div>
+    <button type="submit" name="submit" class="waves-effect waves-light btn teal">Submit</button>
+    <button type="submit" name="delete" class="waves-effect waves-light btn red">Delete</button>
+</form>
+</main>
+{% endblock %}
+
+
+
+{% block javascript %}
+<script>
+    $(document).ready(function() {
+        $('select').material_select();
+    });
+</script>
+{% endblock %}

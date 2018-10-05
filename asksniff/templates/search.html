@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block title %}
+Search
+{% endblock %}
+
+
+{% block style %}
+<style>
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 5px;
+    }
+    th {
+        text-align: left;
+    }
+    ul.browser-default li {
+        list-style-type: disc;
+    }
+    ol.browser-default li {
+        list-style-type: decimal;
+    }
+   
+</style>
+{% endblock %}
+
+{% block content %}
+{% include "navbar.html" %}
+<main class="container">
+<h3>Search</h3>
+<p>Quickly search for a certain information on this website.</p>
+<form action="" method="post" id="search" name="search">{% csrf_token %}
+    {{form.errors}}
+    <div class="row">
+        <div class="input-field col s12">                              
+            {{form.query}}
+            {{form.query.label_tag}}
+        </div>
+    </div>             
+    <button class="waves-effect waves-light btn-large" type="submit">Search</button>
+</form>
+<br>
+<div id="wait" style="display:none" class="center-align">
+    <div class="preloader-wrapper active">
+        <div class="spinner-layer spinner-blue-only">
+            <div class="circle-clipper left">
+            <div class="circle"></div>
+            </div><div class="gap-patch">
+            <div class="circle"></div>
+            </div><div class="circle-clipper right">
+            <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="results"></div>
+</main>
+{% endblock %}
+
+
+
+{% block javascript %}
+<script src="{% static 'js/search.js' %}"></script>
+{% endblock %}

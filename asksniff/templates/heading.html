@@ -1,0 +1,141 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block title %}
+{{heading.text}}
+{% endblock %}
+
+
+{% block style %}
+<style>
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    thead{
+        font-size: 20px;
+        background-color: rgb(202, 202, 202);
+    }
+    tbody{
+        font-size: 18px;
+    }
+    th, td {
+        padding: 5px;
+    }
+    th {
+        text-align: left;
+    }
+    table{
+        width: 90%;
+    }
+    ul.browser-default li {
+        list-style-type: disc;
+    }
+    ol.browser-default li {
+        list-style-type: decimal;
+    }
+    .breadcrumb::before{
+        color:black
+    }
+    .center-image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .collapsible-body a:hover{
+        font-weight: bold;
+        text-decoration: underline;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+{% include "navbar.html" %}
+<main class="container">
+{% if request.user.is_authenticated %}
+<div id="child_info" class="right hide-on-med-and-down">
+    <a href="{% url 'myChild' %}"><p>Active Child: {{childName}} ({{childAge}})</p></a>
+</div>
+{% elif request.session.age_range %}
+<div id="child_info" class="right hide-on-med-and-down">
+    <a href="{% url 'age' %}"><p>Age group: {{selectedAge}}</p></a>
+</div>
+{% endif %}
+<nav class="transparent z-depth-0" style="height:auto;">
+<div class="nav-wrapper" style="max-width:100%;overflow-y:auto;white-space:nowrap;">
+    <div class="col s12">
+        <a href="{% url 'homepage' %}" class="breadcrumb black-text"><i class="material-icons">home</i></a>
+        <a href="{% url 'symptom' heading.categoryName  %}" class="breadcrumb black-text">{{heading.categoryName | title}}</a>
+    </div>
+</div>
+</nav>
+<h4 style="margin-top:0px">{{heading.text}}</h4>
+{% if subHeadings %}
+<ul class="collapsible popout" id="content" data-collapsible="accordion">
+    {% for subHeading in subHeadings %}
+    <li id='{{subHeading.subHeadingId}}'>
+        <div class="collapsible-header flow-text">{{subHeading.title}} <div class="right" style="font-size:12px;"> Last Edited: {{subHeading.lastEdited}}</div></div>
+        <div class="collapsible-body flow-text">{{subHeading.text|safe}}</div>
+    </li>
+    {% endfor %}  
+</ul>
+{% else %}
+<h2>No information yet</h2>
+{% endif %}
+</div>
+<button class="btn waves-effect waves-light right" onclick="printPage()">Print Information</button>
+<button class="btn waves-effect waves-light left" onclick="goBack()">Back</button>
+</main>
+{% endblock %}
+
+
+
+{% block javascript %}
+<script>
+    $(document).ready(function() {
+        $('.collapsible').collapsible();
+        $('.collapsible-body ul').addClass('browser-default');
+        $('.collapsible-body img').addClass('materialboxed');
+        $('.collapsible-body img').addClass('responsive-img');
+        $('.collapsible-body img').addClass('center-image');
+        $('.materialboxed').materialbox();
+        $('.collapsible-body ol').addClass('browser-default');
+        $('.collapsible-body ol').addClass('browser-default');
+        var anchor = window.location.hash.substr(1);
+        if(anchor != ''){
+            var index = $("#" + anchor).index();
+            $('.collapsible').collapsible('open', index);
+        }
+        $('.materialboxed').materialbox();
+        var first = $("#" + {{subHeadings.0.subHeadingId}}).index();
+        $('.collapsible').collapsible('open', first);
+    });
+</script>
+{% if subHeadings %}
+<script>
+    function printPage(){    
+        var WinPrint = window.open('', '{{heading}}', 'left=0,top=0,width=800,height=900,toolbar=0,scrollbars=0,status=0');
+        WinPrint.document.write("<html><head><style>");
+        WinPrint.document.write("table, th, td {border: 1px solid black;border-collapse: collapse;}");
+        WinPrint.document.write("th, td {padding: 5px;}");
+        WinPrint.document.write("th {text-align: left;}");
+        WinPrint.document.write("table{width: 90%;}");
+        WinPrint.document.write("img{width: 300px;height:300px;}");
+        WinPrint.document.write("iframe{width:0;height:0;}");
+        WinPrint.document.write(".center-image{display: block;margin-left: auto;margin-right: auto;}");
+        WinPrint.document.write("</style></head><body>");
+        WinPrint.document.write("<h1>{{heading}}</h1>");
+        {% for subHeading in subHeadings %}
+        var prtContent_head_{{subHeading.subHeadingId}} = document.getElementsByClassName("collapsible-header")[{{forloop.counter0}}];
+        var prtContent_cnt_{{subHeading.subHeadingId}} = document.getElementsByClassName("collapsible-body")[{{forloop.counter0}}];
+        WinPrint.document.write("<h2>" + prtContent_head_{{subHeading.subHeadingId}}.innerHTML + "</h2>");
+        WinPrint.document.write(prtContent_cnt_{{subHeading.subHeadingId}}.innerHTML + "<hr>");
+        {% endfor %}
+        WinPrint.document.write("</body></html>");
+        WinPrint.document.close();
+        WinPrint.print();
+        WinPrint.close();
+    }
+</script>
+{% endif %}
+{% endblock %}

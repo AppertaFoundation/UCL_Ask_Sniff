@@ -1,0 +1,7 @@
+The initial_data.json file contain the initial data the database should be popoluated with anytime we
+create a new django application for asksniff (helps with automation of deployment). To load the data use the
+command
+
+python manage.py makemigrations
+python manage.py migrate
+python manage.py loaddata initial_data.json

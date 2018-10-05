@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block title %}
+Select Age
+{% endblock %}
+
+
+{% block style %}
+{% endblock %}
+
+{% block content %}
+{% include "navbar.html" %}
+<main class="container">
+<h3>Select Age of child</h3>
+<div class="row">
+  <form action="" method="post" class="col s8"> {% csrf_token %}    
+    <select name="age" id="age">
+      <option value="0">less than 1 month</option>
+      <option value="1">1-3 months</option>
+      <option value="2">3-6 months</option>
+      <option value="3">6-12 months</option>
+      <option value="4">12-24 months</option>
+      <option value="5">2-5 years</option>
+    </select>
+    <button class="btn waves-effect waves-light" type="submit">Submit</button>
+  </form>
+</div>
+
+</main>
+{% endblock %}
+
+
+{% block javascript %}
+<script>
+$(document).ready(function() {
+  $('select').material_select();
+});
+</script>
+{% endblock %}

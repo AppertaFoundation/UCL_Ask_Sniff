@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block title %}
+Symptom - {{symptom}}
+{% endblock %}
+
+
+{% block style %}
+<style>
+  .breadcrumb::before{
+    color:black
+  }
+</style>
+{% endblock %}
+
+{% block content %}
+{% include "navbar.html" %}
+         
+<main class="container">
+{% if request.user.is_authenticated %}
+<div id="child_info" class="right hide-on-med-and-down">
+    <a href="{% url 'myChild' %}"><p>Active Child: {{childName}} ({{childAge}})</p></a>
+</div>
+{% elif request.session.age_range %}
+<div id="child_info" class="right hide-on-med-and-down">
+    <a href="{% url 'age' %}"><p>Age group: {{selectedAge}}</p></a>
+</div>
+{% endif %}
+
+<nav class="transparent z-depth-0">
+<div class="nav-wrapper">
+    <div class="col s12">
+        <a href="{% url 'homepage' %}" class="breadcrumb black-text"><i class="material-icons">home</i></a>
+    </div>
+</div>
+</nav>
+<h3 style="margin-top:0px">{{symptom}}</h3>
+{% if description %}
+<div id="description" class="flow-text">
+{{description|safe}}
+</div>
+{% endif %}
+<div class="divider"></div>
+{% if headings %}
+<h4>More Information on {{symptom}}</h4>
+<div class="collection">
+  {% for heading in headings %}
+  <a href="{% url 'symptom_heading' heading.headingId %}" style="font-size:20px" class="collection-item">{{forloop.counter}} : {{heading.text}}</a>
+  {% endfor %}
+</div>
+{% else %}
+<h3><i>No information yet</i></h3>
+{% endif %}
+<br><br>
+<button class="btn waves-effect waves-light" onclick="goBack()">Back</button>
+</main>
+{% endblock %}
+
+{% block javascript %}
+<script>
+  $(document).ready(function() {
+    $('#description ul').addClass('browser-default');
+    $('#description img').addClass('materialboxed');
+    $('.materialboxed').materialbox();
+  });
+</script>
+{% endblock %}

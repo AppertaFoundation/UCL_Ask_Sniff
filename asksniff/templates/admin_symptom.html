@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block title %}
+Admin - Symptoms
+{% endblock %}
+
+
+{% block style %}
+{% endblock %}
+
+{% block content %}
+{% include "navbar.html" %}
+<main class="container">
+<h3>Admin - {{category.categoryName|title}}</h3>
+{% for result in results %}
+<ul class="collection with-header">
+	<li class="collection-header"><h4><a class="black-text" href="{% url 'admin_headings' result.0.headingId %}">{{result.0}}</a></h4></li>
+	{% for subHeading in result.1 %}
+		<li><a title="Edit Subheading" class="black-text collection-item" href="{% url 'admin_subheadings' result.0.headingId subHeading.subHeadingId %}">{{subHeading}}<i class="material-icons secondary-content">edit</i></a></li>
+	{% endfor %}
+	<li class="collection-item right"><a title="Add Subheading" href="{% url 'admin_subheadings' result.0.headingId 0 %}" class="waves-effect waves-light btn teal"><i class="material-icons left" style="cursor:pointer">add</i>subheading</a></li>
+</ul>
+{% endfor %}
+<a title="Add Subheading" href="{% url 'admin_headings' 0 %}" class="waves-effect waves-light btn teal"><i class="material-icons left" style="cursor:pointer">add</i>heading</a>
+<br><br>
+</main>
+{% endblock %}
+
+
+
+{% block javascript %}
+{% endblock %}

@@ -1,0 +1,151 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block title %}
+Diary - {{child}}
+{% endblock %}
+
+
+{% block style %}
+<style>
+    .modal { height: 80% !important ; } 
+    .breadcrumb::before{
+        color:black
+    }
+</style>
+<script type="text/javascript" src="{% static 'admin/js/vendor/jquery/jquery.js' %}"></script>
+{{form.media}}
+{% endblock %}
+
+{% block content %}
+{% include "navbar.html" %}
+<main class="container">
+<nav class="transparent z-depth-0" style="height:auto;">
+<div class="nav-wrapper" style="max-width:100%;overflow-y:auto;white-space:nowrap;">
+    <div class="col s12">
+        <a href="{% url 'homepage' %}" class="breadcrumb black-text"><i class="material-icons">home</i></a>
+        <a href="{% url 'diary' %}" class="breadcrumb black-text">Diary</a>
+    </div>
+</div>
+</nav>
+<h3 style="margin-top:0px">Diary entries of {{child|title}}</h3>
+<hr>
+{% if logs %}
+{% for log in logs %}
+<div id="diary{{log.diary_id}}">
+    <p class="right">Last edited on {{log.created_on}}</p>
+    <h4>{{log.title}}</h4>
+    
+    <p>{{log.text}}</p>
+    {% if log.image %}
+    <img class="materialboxed" src="{{log.image.url}}" width="300" height="300">
+    {% endif %}
+    <p>
+        <a href="#log{{forloop.counter}}" title="Edit log" style="cursor:pointer;" class="btn-floating btn-medium waves-effect waves-light teal"><i class="material-icons">edit</i></a>&nbsp;
+        <a id="delete{{forloop.counter}}" title="Delete log" style="cursor:pointer" class="btn-floating btn-medium waves-effect waves-light red" href=""><i class="material-icons">delete</i></a>&nbsp;
+    </p>
+    <hr>
+</div>
+
+{% endfor %}
+{% else %}
+<h4>No logs</h4>
+{% endif %}
+<a title="Add Diary Entry" href="#add_log_modal" class="btn-floating btn-large waves-effect waves-light teal right"><i class="material-icons" style="cursor:pointer">add</i></a>
+<div id="add_log_modal" class="modal modal-fixed-footer">
+    <form action="" method="POST" enctype='multipart/form-data'>{% csrf_token %}
+        <div class="modal-content">
+            <h3>Add a new diary entry</h3>
+            {{form.errors}}
+            <div class="row">
+                <div class="input-field col s12">                              
+                    {{form.title}}
+                    {{form.title.label_tag}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">                              
+                    {{form.text}}
+                    {{form.text.label_tag}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="file-field input-field">
+                    <div class="btn">
+                        <span>Image (optional)</span>
+                        {{form.image}}
+                    </div>
+                    <div class="file-path-wrapper">
+                        <input class="file-path validate" type="text">
+                    </div>
+                </div>
+            </div>
+            {{form.child}}
+            {{form.check_id}}
+        </div>
+        <div class="modal-footer">
+            <button class="waves-effect waves-teal btn" type="submit" name="add">Add Log</button>
+            <a href="#!" class="modal-action modal-close waves-effect waves-teal btn-flat">Close</a>
+        </div>
+    </form>
+</div>
+
+{% for log in edit_logs %}
+<div id="log{{forloop.counter}}" class="modal modal-fixed-footer">
+    <form action="" method="POST" enctype='multipart/form-data'>{% csrf_token %}
+        <div class="modal-content">
+            <h3>Edit diary entry</h3>
+            {{log.errors}}
+            <div class="row">
+                <div class="input-field col s12">                              
+                    {{log.title}}
+                    {{log.title.label_tag}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">                              
+                    {{log.text}}
+                    {{log.text.label_tag}}
+                </div>
+            </div>
+            {{log.image}}
+            {{log.child}}
+            {{log.check_id}}
+        </div>
+        <div class="modal-footer">
+            <button class="waves-effect waves-teal btn" type="submit">Edit Log</button>
+            <a href="#!" class="modal-action modal-close waves-effect waves-teal btn-flat">Close</a>
+        </div>
+    </form>
+</div>
+{% endfor %}
+</main>
+{% endblock %}
+
+
+
+{% block javascript %}
+<script src="{% static 'js/diary_delete.js' %}"></script>
+<script>
+    $(document).ready(function(){
+        $('.modal').modal();
+        $('textarea').addClass('materialize-textarea');
+        $('.materialboxed').materialbox();
+    });
+    {% if error %}
+    Materialize.toast('{{error}}', 8000)
+    {% endif %}
+</script>
+<script>
+{% for log in logs %}
+var delete_{{forloop.counter}} = document.getElementById("delete{{forloop.counter}}");
+delete_{{forloop.counter}}.onclick = function(){
+    var check = confirm("Are you sure you want to delete this log?");
+	if(check){
+        delete_diary({{log.diary_id}});
+    }
+    return false;
+};
+{% endfor %}
+</script>
+{% endblock %}
